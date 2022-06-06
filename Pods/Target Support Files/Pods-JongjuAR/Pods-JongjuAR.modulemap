@@ -1,0 +1,6 @@
+framework module Pods_JongjuAR {
+  umbrella header "Pods-JongjuAR-umbrella.h"
+
+  export *
+  module * { export * }
+}
