@@ -1,10 +1,10 @@
-{
-    "routeName": "백두대간",
+[{
+    "name": "백두대간",
     "routes": [
         {
             "num": 1,
             "name": "지리산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 7,
             "courses": [
                 {
@@ -54,7 +54,7 @@
         {
             "num": 2,
             "name": "덕유산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 8,
             "courses": [
                 {
@@ -110,7 +110,7 @@
         {
             "num": 3,
             "name": "속리산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 8,
             "courses": [
                 {
@@ -166,7 +166,7 @@
         {
             "num": 4,
             "name": "소백산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 7,
             "courses": [
                 {
@@ -216,7 +216,7 @@
         {
             "num": 5,
             "name": "태백산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 8,
             "courses": [
                 {
@@ -272,7 +272,7 @@
         {
             "num": 6,
             "name": "오대산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 6,
             "courses": [
                 {
@@ -316,7 +316,7 @@
         {
             "num": 7,
             "name": "설악산권",
-            "courseType": "종주"
+            "courseType": "종주",
             "courseCnt": 8,
             "courses": [
                 {
@@ -354,7 +354,7 @@
                     "name": "한계령-마등령",
                     "mmap": "",
                     "gpx": "백두대간_설악산권_종주_6코스.gpx"
-                }
+                },
                 {
                     "num": 7,
                     "name": "마등령-미시령",
@@ -370,4 +370,4 @@
             ]
         },
     ]
-}
+}]
