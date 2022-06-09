@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import CoreGPX
 
 struct ContentView: View {
     
@@ -20,16 +21,17 @@ struct ContentView: View {
                             Text(route.name)
                         }
                     }
-                    
-                    
                 }
             }
         }
-        
     }
 }
 
 struct DownloadGPXView: View {
+    
+    @Environment(\.colorScheme) var colorScheme
+    @State private var showingAlert = false
+    
     var route: Route
     
     init(route: Route) {
@@ -39,7 +41,21 @@ struct DownloadGPXView: View {
     var body: some View {
         List {
             ForEach(route.courses) { course in
-                Text(course.name)
+                Button {
+                    // print(course.gpx)
+                    // download 여부 확인
+                    // true : open
+                    // false : download
+                    self.showingAlert = true
+                    
+                } label: {
+                    Text(course.name)
+                }.foregroundColor(colorScheme == .dark ? Color.white : Color.black)
+                .alert(isPresented: $showingAlert) {
+                    Alert(title: Text("GPX 파일을 다운로드 받으시겠습니까?"), message: Text("다운로드 받아야 경로를 확인할 수 있습니다."), primaryButton: .destructive(Text("OK")) {
+                        print("다운로드받기!")
+                    }, secondaryButton: .cancel())
+                }
             }
         }
     }
@@ -73,27 +89,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-/*
-let backduTracks = [
-    "1. 지리산권 종주": ["1코스_천왕봉-세석산장", "2코스_세석산장-토끼봉", "3코스_토끼봉-헬기장", "4코스_헬기장-입망치", "5코스_입망치-매요마을", "6코스_매요마을-꼬부랑재", "7코스_꼬부랑재-중고개재"]
-    , "2. 덕유산권 종주": ["1코스_중고개재-육십령", "2코스_육십령-삿갓골재", "3코스_삿갓골재-빼재(신풍령)", "4코스_빼재(신풍령)-쑥병이", "5코스_쑥병이-삼도봉", "6코스_삼도봉-바람재", "7코스_바람재-당마루", "8코스_당마루-큰재"]
-
-]
-
-let backduTrack = [
-    "1. 지리산권 종주"
-    , "2. 덕유산권 종주"
-    , "3. 속리산권 종주"
-    , "4. 소백산권 종주"
-    , "5. 태백산권 종주"
-    , "6. 오대산권 종주"
-    , "7. 설악산권 종주"]
-let hanyangTrack = ["1코스 북악산":[], "2코스 낙산":[], "2코스 남산":[], "4코스 인왕산":[]]
-
-let backdu = Jongju(name: "백두대간", tracks: backduTrack)
-// let hanyang = Jongju(name: "한양도성", tracks: hanyangTrack)
-
-let data = [backdu]
-*/

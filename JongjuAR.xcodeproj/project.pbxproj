@@ -16,6 +16,7 @@
 		1E066305284F2C2F00A8702B /* 백두대간_지리산권_종주_4코스_헬기장-입망치.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E0662FF284F2C2F00A8702B /* 백두대간_지리산권_종주_4코스_헬기장-입망치.gpx */; };
 		1E0663072850880200A8702B /* Backdu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E0663062850880200A8702B /* Backdu.json */; };
 		1E06630928508DC800A8702B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06630828508DC800A8702B /* Model.swift */; };
+		1E06630B2851C2CF00A8702B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06630A2851C2CF00A8702B /* Util.swift */; };
 		1E53F8AC284DA718008B77B4 /* JongjuARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */; };
 		1E53F8AE284DA718008B77B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8AD284DA718008B77B4 /* ContentView.swift */; };
 		1E53F8B0284DA722008B77B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F8AF284DA722008B77B4 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 		1E0662FF284F2C2F00A8702B /* 백두대간_지리산권_종주_4코스_헬기장-입망치.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_4코스_헬기장-입망치.gpx"; sourceTree = "<group>"; };
 		1E0663062850880200A8702B /* Backdu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Backdu.json; sourceTree = "<group>"; };
 		1E06630828508DC800A8702B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1E06630A2851C2CF00A8702B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		1E53F8A8284DA718008B77B4 /* JongjuAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JongjuAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongjuARApp.swift; sourceTree = "<group>"; };
 		1E53F8AD284DA718008B77B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				1E53F8B1284DA722008B77B4 /* Preview Content */,
 				1E0663062850880200A8702B /* Backdu.json */,
 				1E06630828508DC800A8702B /* Model.swift */,
+				1E06630A2851C2CF00A8702B /* Util.swift */,
 			);
 			path = JongjuAR;
 			sourceTree = "<group>";
@@ -443,6 +446,7 @@
 				1E06630928508DC800A8702B /* Model.swift in Sources */,
 				1E53F8AE284DA718008B77B4 /* ContentView.swift in Sources */,
 				1E53F8AC284DA718008B77B4 /* JongjuARApp.swift in Sources */,
+				1E06630B2851C2CF00A8702B /* Util.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

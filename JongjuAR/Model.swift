@@ -13,12 +13,14 @@ struct Course : Codable, Identifiable {
         case name
         case mmap
         case gpx
+        case gpxPath
     }
     var id = UUID()
     var num: Int
     var name: String
     var mmap: String
     var gpx: String
+    var gpxPath: String
 }
 
 struct Route : Codable, Identifiable {
