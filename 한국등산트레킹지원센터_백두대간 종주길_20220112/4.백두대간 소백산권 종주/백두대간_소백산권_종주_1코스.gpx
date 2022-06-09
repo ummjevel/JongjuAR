@@ -1,0 +1,2470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gpx
+ version="1.1"
+ creator="Global Mapper - http://www.globalmapper.com"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xmlns="http://www.topografix.com/GPX/1/1"
+ xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+ <metadata>
+ </metadata>
+<wpt lat="36.799736" lon="128.083954">
+ <ele>939</ele>
+ <time>2020-09-18T00:00:00Z</time>
+ <name><![CDATA[부봉]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PEAK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.799915" lon="128.084930">
+ <ele>875</ele>
+ <time>2020-09-18T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[부봉;UT]]></signpost1>
+ <signpost2><![CDATA[마패봉;TL]]></signpost2>
+ <signpost3><![CDATA[하늘재;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.797436" lon="128.093826">
+ <ele>982</ele>
+ <time>2020-09-18T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[부뵹삼거리;UT]]></signpost1>
+ <signpost2><![CDATA[주흘산 표식없음;ST]]></signpost2>
+ <signpost3><![CDATA[하늘재;TL]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.799732" lon="128.083923">
+ <ele>942</ele>
+ <time>2020-10-06T00:00:00Z</time>
+ <name><![CDATA[부봉]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PEAK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.799923" lon="128.084885">
+ <ele>877</ele>
+ <time>2020-10-06T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[부봉;UT]]></signpost1>
+ <signpost2><![CDATA[마패봉;TL]]></signpost2>
+ <signpost3><![CDATA[하늘재;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.801334" lon="128.085388">
+ <ele>839</ele>
+ <time>2020-10-06T00:00:00Z</time>
+ <name><![CDATA[산성 우측능선 산성벽]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.802063" lon="128.085144">
+ <ele>821</ele>
+ <time>2020-10-06T00:00:00Z</time>
+ <name><![CDATA[나무]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SCENERY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.803570" lon="128.084625">
+ <ele>763</ele>
+ <time>2020-10-06T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[부봉;UT]]></signpost1>
+ <signpost2><![CDATA[없음 백두대간길;ST]]></signpost2>
+ <signpost3><![CDATA[동화원;TL]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751816" lon="128.031921">
+ <ele>533</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령휴게소주차장]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PARK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751835" lon="128.031906">
+ <ele>530</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령 휴게소식당]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>FOOD</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751644" lon="128.031784">
+ <ele>534</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[휴게소식당앞 화장실]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>TOILET</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751923" lon="128.032089">
+ <ele>539</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령터널]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751911" lon="128.032089">
+ <ele>531</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[백두대간이화령탑]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751366" lon="128.033051">
+ <ele>539</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령쉼터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>REST</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751461" lon="128.033066">
+ <ele>556</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[들머리]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>ENTRY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751854" lon="128.033005">
+ <ele>541</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[백두대간안내도]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751850" lon="128.032974">
+ <ele>538</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[조령산안내도]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751923" lon="128.032883">
+ <ele>538</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>REST</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.752392" lon="128.032028">
+ <ele>537</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[괴산군관광안내및쉼터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751892" lon="128.031769">
+ <ele>533</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[이화령조망대]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751873" lon="128.031754">
+ <ele>534</ele>
+ <time>2020-10-29T00:00:00Z</time>
+ <name><![CDATA[4대강국토종주새재자전거길안내]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751789" lon="128.033005">
+ <ele>531</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[이화령터널]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751850" lon="128.033020">
+ <ele>533</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[백두대간및조령산안내도]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751831" lon="128.033005">
+ <ele>532</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[이화령쉼터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>REST</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.751987" lon="128.033005">
+ <ele>530</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[들머리]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>ENTRY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.758976" lon="128.036041">
+ <ele>648</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[이화령1.2km;UT]]></signpost1>
+ <signpost2><![CDATA[조령산1.8km;BL]]></signpost2>
+ <signpost3><![CDATA[요광원0.8km;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.759174" lon="128.036240">
+ <ele>669</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[잣나무식재지]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SCENERY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.760117" lon="128.036392">
+ <ele>678</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[이화령1.2km;UT]]></signpost1>
+ <signpost2><![CDATA[조령산1.7km;TR]]></signpost2>
+ <signpost3><![CDATA[이화령1.1km;TL]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.760612" lon="128.036743">
+ <ele>721</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[폐기된  헬기장]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PARK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.766327" lon="128.041733">
+ <ele>849</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[조령샘터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SPRING</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.766483" lon="128.041611">
+ <ele>864</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[안내판]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.768799" lon="128.041077">
+ <ele>924</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[이화령2.4km;UT]]></signpost1>
+ <signpost2><![CDATA[조령산0.5km;TR]]></signpost2>
+ <signpost3><![CDATA[절골2.7km;TL]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.768822" lon="128.041580">
+ <ele>990</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[헬기장]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PARK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.768787" lon="128.041824">
+ <ele>1006</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[동남향조망]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.771404" lon="128.044250">
+ <ele>1023</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[조령산정상]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PEAK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.771404" lon="128.044250">
+ <ele>1023</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[정상조망]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.774586" lon="128.044235">
+ <ele>928</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[조령산0.4km;UT]]></signpost1>
+ <signpost2><![CDATA[신선암봉1.3km;ST]]></signpost2>
+ <signpost3><![CDATA[마당바위2.4km;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.775257" lon="128.043930">
+ <ele>937</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[남서북방조망]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.777180" lon="128.045013">
+ <ele>832</ele>
+ <time>2020-11-04T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[조령산0.76km;UT]]></signpost1>
+ <signpost2><![CDATA[산선암봉0.92km;ST]]></signpost2>
+ <signpost3><![CDATA[절골2.3km;TL]]></signpost3>
+ <signpost4><![CDATA[마당바위2.2km;TR]]></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.816795" lon="128.059113">
+ <ele>932</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[신선봉1.2km;UT]]></signpost1>
+ <signpost2><![CDATA[하늘재.  부봉삼거리 4.0km;TL]]></signpost2>
+ <signpost3><![CDATA[조령삼관문0.9km;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.816830" lon="128.059097">
+ <ele>935</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[마패봉정상]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PEAK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.813213" lon="128.058823">
+ <ele>743</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[옛조령성터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810596" lon="128.057938">
+ <ele>646</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[삼관문쉼터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>ENTRY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810535" lon="128.058029">
+ <ele>643</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[나들목]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>ENTRY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810371" lon="128.058060">
+ <ele>639</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[조령제3관문]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>CULTURAL</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810131" lon="128.058014">
+ <ele>647</ele>
+ <time>2020-11-12T00:00:00Z</time>
+ <name><![CDATA[조령약수터]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SPRING</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.788235" lon="128.050552">
+ <ele>897</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[자연조망점]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.788239" lon="128.050583">
+ <ele>905</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[자연포토존]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PHOTO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.791374" lon="128.053177">
+ <ele>900</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[큰바위 조망점]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.793018" lon="128.054733">
+ <ele>873</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[계단조망점]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>VIEW</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.792931" lon="128.055130">
+ <ele>860</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[신선암봉1.5km;UT]]></signpost1>
+ <signpost2><![CDATA[새재삼관문2.2km;BL]]></signpost2>
+ <signpost3><![CDATA[새재이관문1.8km;BR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.797356" lon="128.055328">
+ <ele>804</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[신선암봉;UT]]></signpost1>
+ <signpost2><![CDATA[깃대봉;ST]]></signpost2>
+ <signpost3><![CDATA[한셈지기;TL]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.800961" lon="128.055634">
+ <ele>755</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[신갈나무집단서식지]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SCENERY</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.805435" lon="128.053696">
+ <ele>805</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[조령산4.4km;UT]]></signpost1>
+ <signpost2><![CDATA[깃대봉0.3km;ST]]></signpost2>
+ <signpost3><![CDATA[새재삼관문1.0km;TR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.805645" lon="128.052658">
+ <ele>852</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[깃대봉정상]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>PEAK</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.805408" lon="128.051926">
+ <ele>829</ele>
+ <time>2020-11-17T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[깃대봉0.1km;UT]]></signpost1>
+ <signpost2><![CDATA[한섬지기3.5km;BL]]></signpost2>
+ <signpost3><![CDATA[휴양림매표소1.3km;BR]]></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810226" lon="128.058151">
+ <ele>680</ele>
+ <time>2020-11-25T00:00:00Z</time>
+ <name><![CDATA[안내소]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810162" lon="128.058121">
+ <ele>680</ele>
+ <time>2020-11-25T00:00:00Z</time>
+ <name><![CDATA[갈림길]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>SIGN</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1><![CDATA[2관문;UT]]></signpost1>
+ <signpost2><![CDATA[조령산;TL]]></signpost2>
+ <signpost3><![CDATA[고사리;TR]]></signpost3>
+ <signpost4><![CDATA[마패봉;ST]]></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<wpt lat="36.810093" lon="128.058029">
+ <ele>681</ele>
+ <time>2020-11-25T00:00:00Z</time>
+ <name><![CDATA[안내소]]></name>
+ <desc>Unknown Point Feature</desc>
+ <sym>Dot</sym>
+ <magvar>      0.00000000000</magvar>
+ <geoidheigh>      0.00000000000</geoidheigh>
+ <desc_></desc_>
+ <src></src>
+ <link1_href></link1_href>
+ <link1_text></link1_text>
+ <link1_type></link1_type>
+ <link2_href></link2_href>
+ <link2_text></link2_text>
+ <link2_type></link2_type>
+ <type></type>
+ <fix></fix>
+ <sat>         0</sat>
+ <hdop>      0.00000000000</hdop>
+ <vdop>      0.00000000000</vdop>
+ <pdop>      0.00000000000</pdop>
+ <ageofdgpsd>      0.00000000000</ageofdgpsd>
+ <dgpsid>         0</dgpsid>
+ <wptid>         0</wptid>
+ <category>INFO</category>
+ <address>         0</address>
+ <direction></direction>
+ <maneuver>         0</maneuver>
+ <signpost1></signpost1>
+ <signpost2></signpost2>
+ <signpost3></signpost3>
+ <signpost4></signpost4>
+ <elevation>0</elevation>
+</wpt>
+<trk>
+ <name></name>
+ <desc>Tracklog</desc>
+ <trkseg>
+  <trkpt lat="36.752106" lon="128.032629">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.753018" lon="128.032522">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.753980" lon="128.032351">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.754874" lon="128.032179">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.756146" lon="128.032737">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.757350" lon="128.034067">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.757934" lon="128.034582">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.758725" lon="128.035183">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.759138" lon="128.035870">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.759791" lon="128.036299">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.760479" lon="128.036985">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.761201" lon="128.037629">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.761957" lon="128.037972">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.762679" lon="128.038402">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.763401" lon="128.038745">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.764157" lon="128.039131">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.764742" lon="128.039474">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.765533" lon="128.040075">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.766083" lon="128.040676">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.766667" lon="128.040676">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.767148" lon="128.041105">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.768214" lon="128.040977">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.768145" lon="128.041792">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.768799" lon="128.042436">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.769589" lon="128.043251">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.770930" lon="128.044453">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.771961" lon="128.044624">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.773027" lon="128.044624">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.774024" lon="128.044710">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.775124" lon="128.044839">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.776052" lon="128.045440">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.776877" lon="128.045912">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.777874" lon="128.045783">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.778492" lon="128.046899">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.779592" lon="128.046556">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.780486" lon="128.045998">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.781552" lon="128.045654">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.782548" lon="128.045654">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.783064" lon="128.046942">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.783133" lon="128.047972">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.783614" lon="128.049002">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.784611" lon="128.049474">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.785745" lon="128.050246">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.787154" lon="128.050504">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.788494" lon="128.051233">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.789732" lon="128.051834">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.790591" lon="128.052521">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.791862" lon="128.053508">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.792481" lon="128.054109">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.792962" lon="128.055096">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.794096" lon="128.055525">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.794990" lon="128.055525">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.795711" lon="128.055739">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.796450" lon="128.055696">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.797292" lon="128.055696">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.798701" lon="128.055997">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.799285" lon="128.055696">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.800351" lon="128.055568">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.800935" lon="128.055267">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.803546" lon="128.054924">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805436" lon="128.053508">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.807086" lon="128.057928">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.808357" lon="128.057714">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.809216" lon="128.057241">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.809525" lon="128.057113">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.809972" lon="128.058100">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.811621" lon="128.057756">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.811999" lon="128.058057">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.813064" lon="128.058615">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.813476" lon="128.059301">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.816397" lon="128.059387">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.816809" lon="128.059816">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.817050" lon="128.062563">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.817050" lon="128.063636">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.817084" lon="128.065267">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.817118" lon="128.065910">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.816740" lon="128.066339">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.816775" lon="128.067327">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.814576" lon="128.070717">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.814473" lon="128.072004">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.812068" lon="128.075266">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.811552" lon="128.075609">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.811037" lon="128.077197">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.810006" lon="128.078012">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.809250" lon="128.077970">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.808494" lon="128.078957">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.807979" lon="128.080373">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.806742" lon="128.082690">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805265" lon="128.084407">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804783" lon="128.084407">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804165" lon="128.085351">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.802997" lon="128.085222">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.802825" lon="128.084364">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.802206" lon="128.083978">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.801107" lon="128.084106">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.799732" lon="128.084149">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.799148" lon="128.083892">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.797739" lon="128.086252">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.797120" lon="128.088140">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.796674" lon="128.088784">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.796536" lon="128.090243">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.796639" lon="128.093204">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.796846" lon="128.093548">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.800248" lon="128.093462">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.801553" lon="128.092904">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.802790" lon="128.092904">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.803718" lon="128.094406">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.803443" lon="128.095951">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804577" lon="128.097367">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805436" lon="128.098741">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805505" lon="128.099899">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804612" lon="128.100715">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804165" lon="128.102517">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.804749" lon="128.103032">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.806020" lon="128.103590">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805643" lon="128.106122">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.805471" lon="128.107495">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.806295" lon="128.107624">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.806742" lon="128.108010">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.807120" lon="128.108311">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.807532" lon="128.108311">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.808666" lon="128.108439">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.809869" lon="128.108740">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.810625" lon="128.109770">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.811346" lon="128.110371">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.812308" lon="128.110456">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.813751" lon="128.110414">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.815023" lon="128.110178">
+   <ele>0</ele>
+  </trkpt>
+  <trkpt lat="36.815607" lon="128.110027">
+   <ele>0</ele>
+  </trkpt>
+ </trkseg>
+</trk>
+ <extensions>
+ </extensions>
+</gpx>
