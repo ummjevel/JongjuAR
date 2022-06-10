@@ -6,7 +6,7 @@ target 'JongjuAR' do
   use_frameworks!
 
   # Pods for JongjuAR
-  pod 'CoreGPX'
+  pod 'XmlJson'
 
   target 'JongjuARTests' do
     inherit! :search_paths

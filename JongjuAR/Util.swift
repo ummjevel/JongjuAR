@@ -101,4 +101,19 @@ func IsDownloaded(gpx: String) -> Bool {
     }
 }
 
-// Gpx parse
+// Parse GPX file.
+func ParseGPX(gpx: String) {
+    
+    // IsDownloaded
+    let isDownloaded = IsDownloaded(gpx: gpx)
+    
+    if (!isDownloaded) {
+        print("Is Not Downloaded...")
+        return
+    }
+    
+    // get file
+    
+    // parse file
+    
+}

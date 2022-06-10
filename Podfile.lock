@@ -1,16 +1,16 @@
 PODS:
-  - CoreGPX (0.9.0)
+  - XmlJson (1.0.1)
 
 DEPENDENCIES:
-  - CoreGPX
+  - XmlJson
 
 SPEC REPOS:
   trunk:
-    - CoreGPX
+    - XmlJson
 
 SPEC CHECKSUMS:
-  CoreGPX: 1381c8c47428c3a6bcac2f93d25ca1c5e3525811
+  XmlJson: 7d82bd5a1fc2a3ba87da49ecff55d285039eabee
 
-PODFILE CHECKSUM: 55e36a4bbe28a3c78bb3d5226f788c28edc1574c
+PODFILE CHECKSUM: b0886579b57b5f013dd7892ef82b7b41f2ee8816
 
 COCOAPODS: 1.11.3

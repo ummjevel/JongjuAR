@@ -7,160 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		012AE6A59141D430700F4AB5916B254D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0398B9327CEFE5409D9780F7AB2FB480 /* GPXLegacy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1CD3051BF0214086901868AE4F6EE0 /* GPXLegacy.swift */; };
-		066F140F881A30F460D97B28176AC535 /* GPXAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9811B6AFED4BB0BD857A7915E11F6B67 /* GPXAuthor.swift */; };
-		0AE4791906FF6CF77A501001CA758CB5 /* GPXPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8615A6123BD24F106DC79C2F9CB98AF /* GPXPerson.swift */; };
-		0D56EB72B99B01416542A3B1BB27A0DF /* GPXPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB03680A2D30E0F4AFFF7A824D80A832 /* GPXPoint.swift */; };
-		172A875560ED4CCAAFD7BD59343620CD /* GPXExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88213203839630873863183CD5EB3D0 /* GPXExtensions.swift */; };
-		17A2FB0CA678F74913D74DD693722EDC /* GPXEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36CA217F70ED7EF5F5D0EEA097198A1F /* GPXEmail.swift */; };
-		1B8EDB17F6F552AADD6A4C0889CC45B7 /* DateTimeParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910865F7308B23118B7365D5ED6AB00C /* DateTimeParsers.swift */; };
-		2209F75959A56AB2EDE4450F8B1C1934 /* GPXLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3073607694D7A16B4BC17C9283122906 /* GPXLink.swift */; };
-		2A3EC6BA307F9B79F7B7A22F39DB8EAC /* GPXRoutePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7FF0F68FC9ABB94737E2320ED1EB9A7 /* GPXRoutePoint.swift */; };
-		32C64AB18CD3F2E60523E2AC1268AB16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		35E2A5FDB8F88903F7E8A799C5085819 /* GPXParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA4E735F2DC853599DFA83B5A61B62D /* GPXParser.swift */; };
-		37A1850CD71CA0BF9E3CD9BCC30C6AA2 /* NSMutableString+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = D87678126121CDC96B2ADEFEF1351F5C /* NSMutableString+XML.swift */; };
-		4702768004D49FD9CA1DEDDC1E733116 /* GPXTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB0D6A3024BD577E56BA4D44C88E7E9 /* GPXTrack.swift */; };
-		4B6684199FCBDFD2E1D1FB1AE2FE4E12 /* GPXExtensionsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BB022EB59BABAAFEC2375832E2784FB /* GPXExtensionsElement.swift */; };
-		4C2AFEC3117C09B1674F6B56DDCF6FB7 /* Pods-JongjuAR-JongjuARUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69CAB02823AC0E734FA4230D9FEE39B /* Pods-JongjuAR-JongjuARUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4E0B1FF2EBB5F6579FEA1727D1491D17 /* GPXRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85F6B0A484B0DC687C845E141A55498E /* GPXRoute.swift */; };
-		520289DBD833A3AB3DEEE04E572A1D24 /* CoreGPX-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 82CF1A906AFC855DE1DC1D666AFE6FA4 /* CoreGPX-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A1C43F326A6151901C0857E75EFBFD9 /* XmlTagProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F151CFE3BFC5ED588CC3D34349819FE /* XmlTagProperty.swift */; };
+		2337E3A823EE95BDF4AF86045115480C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		277DF08952E989F00B1AAA92F822FFAE /* Pods-JongjuAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C29A30C5B4933C7D141A080AF248E6 /* Pods-JongjuAR-dummy.m */; };
+		2AFD754DDDCD00E831170C78075B5697 /* XmlTransformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F6F075185EAA9B06A85DE6410D74F5E /* XmlTransformation.swift */; };
+		409607363088183D7172F07E7062704E /* XmlJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00993970BCAD5C1BE301133F571DCEE5 /* XmlJson.swift */; };
+		432DE6DBD779C21A151A681832F13BBB /* XmlJson-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49A6C707FCF807A112DB1B03A2E7DB42 /* XmlJson-dummy.m */; };
+		4FF7288DDB020CE560FB6340FD09E5D3 /* XmlDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E259C4E3FC42418F7D6D615F50E8158F /* XmlDate.swift */; };
 		543FE6C44B18807931A41FDD3B40E6BD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		550BB35F22F854C3B761EA949FCF4BB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		565D468D707410D9B4A130900758F926 /* Pods-JongjuAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4365ED4C13B2A6A2B9352FD02937348 /* Pods-JongjuAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		575B1EC64934071D8BAC834BE27618D0 /* GPXMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B662CF017836A9B004521073BC47C15 /* GPXMetadata.swift */; };
-		6ADD5D4FA0D791F419447FA08EB7D206 /* GPXCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0FFBF0D29F4279A2D331E5F712724DD /* GPXCompression.swift */; };
-		740231397FE214C40F1D06CCC65E1312 /* Pods-JongjuAR-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C29A30C5B4933C7D141A080AF248E6 /* Pods-JongjuAR-dummy.m */; };
-		792FB4D78BDBE1495508A9C35CED6ADB /* GPXBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = E64F3872D23A22E503E46F9C9D60FB24 /* GPXBounds.swift */; };
-		8561A7139E2AAFBDCA9A26ABA45796B2 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F8441A39A04B5735783770153B5C879 /* Converters.swift */; };
-		86BEB8439E47AD82EDB5E2F6AE4B0EDD /* GPXRawElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 715CDC2238D4B239BF3E7E3E9BFBB8B0 /* GPXRawElement.swift */; };
-		88A8B381273D76D3EA808663A34017E3 /* GPXElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CFBC98C36BFE0F83244808B4212577D /* GPXElement.swift */; };
-		90A48FA25FE82EAE6FC4B1F85F30DE4D /* GPXCopyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7764EDA8C782087ED55FA79A6F9BE2C4 /* GPXCopyright.swift */; };
-		928845D9C73A9B7CD079198BCD8262DF /* GPXError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DB0B54643628A4A97450F32F39E7D2 /* GPXError.swift */; };
-		94AC918CF449E8BB5B1DF83963D2EE1C /* GPXTrackSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BE11C4D542DC9160620238E818FE096 /* GPXTrackSegment.swift */; };
+		5ABA662DEE37C3AACEA6B7CFA1ABD65F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5DFE1E279FD2E63E6445C63732DE6CC2 /* XmlJson-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DC5A03E6BF2D6BC955C7B51848FA3554 /* XmlJson-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EBBBEB89B242DC953F33B3255F1ECC7 /* XmlMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDC68FFF6266FEEB6D21A6B6A0D833 /* XmlMapping.swift */; };
+		7FDF852A9E02CEF9D0467487ADD401E5 /* Pods-JongjuAR-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F4365ED4C13B2A6A2B9352FD02937348 /* Pods-JongjuAR-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B233DC24668901C5F9A1CE4E8AEB821 /* XmlTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E75DCC19CAFEDED91C816FD20B46D2 /* XmlTag.swift */; };
 		9592EB9DF05EAB4CE390248BD59A34DB /* Pods-JongjuARTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E014D43458B4F2D6863D7199BAD384C5 /* Pods-JongjuARTests-dummy.m */; };
-		9F0164977868A7659754D91695F705D8 /* GPXPointSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02492BC501F4829E149E0E8CA3AB0C19 /* GPXPointSegment.swift */; };
-		A325289F545C0EBF0D025CFA1D2DDB84 /* GPXRouteProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06B725CECBB1BADB483EAA4A5E44F12D /* GPXRouteProtocol.swift */; };
+		9A5D7D28D8DA86EA01D817AFAE84C58B /* Pods-JongjuAR-JongjuARUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69CAB02823AC0E734FA4230D9FEE39B /* Pods-JongjuAR-JongjuARUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AF61876682034C95FB36D750B6A975FE /* Pods-JongjuARTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39B35A3E3638F26ED4C6DF7809BEE601 /* Pods-JongjuARTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CB6B0AD88496E6436BC8D22B494F751D /* CoreGPX-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F854CA20209AFC8106ACFEF457D60020 /* CoreGPX-dummy.m */; };
-		D1A8A5DFE5D4DB1AEC0A8306FA6B463B /* GPXWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE942B2C965DD237278C625DBA043764 /* GPXWaypoint.swift */; };
-		D6CAAC8130A312DA26B8DDBA431A64FB /* GPXRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D725E5CFA6FFC9614A9F6133F76FDC25 /* GPXRoot.swift */; };
-		D76B057D13B46056E55C629B09ADF0E7 /* Pods-JongjuAR-JongjuARUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA91DBE145963D7ED69061E6723057 /* Pods-JongjuAR-JongjuARUITests-dummy.m */; };
-		E62FF4C45D4885E0DBC36CEE65CC62B6 /* GPXWaypointProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0646355892B484DF092FBB3B80801B /* GPXWaypointProtocol.swift */; };
-		EAF96204B65771082CC3C995EEA68E5D /* GPXFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ABA0253EADEE80FEC49728E4BD6EAD2 /* GPXFix.swift */; };
-		F612401B4C88DAF8001512DF0EB81AD8 /* GPXTrackPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8777D2EC83FF048C30D5BF674CE3C3 /* GPXTrackPoint.swift */; };
+		CDC646BF549E7B512664FFB30BB63AD4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		E852225562B331127E1C5EA71890B7A4 /* XmlFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F8D31D7445E93C6829024BD6A9641D /* XmlFrame.swift */; };
+		EF56836BF3DF862AA39B9D1452285D72 /* XmlData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB93E950C39267B2E8A26E0CAC9C434 /* XmlData.swift */; };
+		F7C6E85DE13886125601AE4462CE2976 /* Pods-JongjuAR-JongjuARUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACA91DBE145963D7ED69061E6723057 /* Pods-JongjuAR-JongjuARUITests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1D203134D997D5F5219E4EA6142B7D1A /* PBXContainerItemProxy */ = {
+		80A01BF5EF1339970565655B152C224D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B2995448527DCFC82E1D607B41F05921;
 			remoteInfo = "Pods-JongjuAR";
 		};
-		5A3A41C90B4F9121E999F5FFB2E3187A /* PBXContainerItemProxy */ = {
+		8721D6762F64A5C74F377BA1C75BF589 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 493735E92C5B6068F445B48D0CA7B736;
-			remoteInfo = CoreGPX;
+			remoteGlobalIDString = 4026AA9FC23D6EC39D63398598B13C59;
+			remoteInfo = XmlJson;
 		};
-		D8CB20B750F5C93E7F6064FC694A6A3A /* PBXContainerItemProxy */ = {
+		C5655C30988CBA1C7470BB4E02EFE86C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 493735E92C5B6068F445B48D0CA7B736;
-			remoteInfo = CoreGPX;
+			remoteGlobalIDString = 4026AA9FC23D6EC39D63398598B13C59;
+			remoteInfo = XmlJson;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02492BC501F4829E149E0E8CA3AB0C19 /* GPXPointSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPointSegment.swift; path = Classes/GPXPointSegment.swift; sourceTree = "<group>"; };
-		06B725CECBB1BADB483EAA4A5E44F12D /* GPXRouteProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRouteProtocol.swift; path = Classes/GPXRouteProtocol.swift; sourceTree = "<group>"; };
+		00993970BCAD5C1BE301133F571DCEE5 /* XmlJson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlJson.swift; path = XmlJson/Classes/XmlJson.swift; sourceTree = "<group>"; };
 		0967F4089DE803AB1BE61919FB60CAD7 /* Pods-JongjuARTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JongjuARTests"; path = Pods_JongjuARTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		12CE62D8560640906E70927DC75BCB73 /* Pods-JongjuAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuAR.release.xcconfig"; sourceTree = "<group>"; };
 		14C00D8166BCDE351B52C67AB16E88C1 /* Pods-JongjuAR-JongjuARUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JongjuAR-JongjuARUITests.modulemap"; sourceTree = "<group>"; };
-		1B195431C8375B5C51B8117EE400E992 /* CoreGPX-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGPX-prefix.pch"; sourceTree = "<group>"; };
-		1BE11C4D542DC9160620238E818FE096 /* GPXTrackSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrackSegment.swift; path = Classes/GPXTrackSegment.swift; sourceTree = "<group>"; };
 		1E6BAB020CBF01AB0034E46519D84009 /* Pods-JongjuAR-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuAR-Info.plist"; sourceTree = "<group>"; };
-		282224514E02414579CF9C32F292E55D /* CoreGPX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreGPX.release.xcconfig; sourceTree = "<group>"; };
+		204A6B2C201C937378610FA721E6E17F /* XmlJson */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XmlJson; path = XmlJson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB93E950C39267B2E8A26E0CAC9C434 /* XmlData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlData.swift; path = XmlJson/Classes/XmlData.swift; sourceTree = "<group>"; };
 		2CC3E59CD014EFFFB0228093B2FF8346 /* Pods-JongjuAR */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JongjuAR"; path = Pods_JongjuAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDF517821F699410E93C01E5A234243 /* Pods-JongjuAR-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JongjuAR-frameworks.sh"; sourceTree = "<group>"; };
-		2FA4E735F2DC853599DFA83B5A61B62D /* GPXParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXParser.swift; path = Classes/GPXParser.swift; sourceTree = "<group>"; };
-		3073607694D7A16B4BC17C9283122906 /* GPXLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXLink.swift; path = Classes/GPXLink.swift; sourceTree = "<group>"; };
-		36CA217F70ED7EF5F5D0EEA097198A1F /* GPXEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXEmail.swift; path = Classes/GPXEmail.swift; sourceTree = "<group>"; };
 		39B35A3E3638F26ED4C6DF7809BEE601 /* Pods-JongjuARTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JongjuARTests-umbrella.h"; sourceTree = "<group>"; };
+		3A3E6D4FEAB0ECC4CAE50CA757167BDC /* XmlJson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XmlJson.debug.xcconfig; sourceTree = "<group>"; };
 		3ACA91DBE145963D7ED69061E6723057 /* Pods-JongjuAR-JongjuARUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JongjuAR-JongjuARUITests-dummy.m"; sourceTree = "<group>"; };
+		3C7E8493906720651C6C20D5FA00ED73 /* XmlJson.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XmlJson.modulemap; sourceTree = "<group>"; };
+		3F6F075185EAA9B06A85DE6410D74F5E /* XmlTransformation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTransformation.swift; path = XmlJson/Classes/XmlTransformation.swift; sourceTree = "<group>"; };
 		41AD685D41DF2DB4999CD3BC7130DE87 /* Pods-JongjuAR-JongjuARUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuAR-JongjuARUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		41C29A30C5B4933C7D141A080AF248E6 /* Pods-JongjuAR-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JongjuAR-dummy.m"; sourceTree = "<group>"; };
 		453E47CA238126FC0A46B8A84037BA76 /* Pods-JongjuAR.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JongjuAR.modulemap"; sourceTree = "<group>"; };
-		4B662CF017836A9B004521073BC47C15 /* GPXMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXMetadata.swift; path = Classes/GPXMetadata.swift; sourceTree = "<group>"; };
-		4F8441A39A04B5735783770153B5C879 /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Classes/Converters.swift; sourceTree = "<group>"; };
-		5CFBC98C36BFE0F83244808B4212577D /* GPXElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXElement.swift; path = Classes/GPXElement.swift; sourceTree = "<group>"; };
+		49A6C707FCF807A112DB1B03A2E7DB42 /* XmlJson-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XmlJson-dummy.m"; sourceTree = "<group>"; };
+		5ECDC68FFF6266FEEB6D21A6B6A0D833 /* XmlMapping.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlMapping.swift; path = XmlJson/Classes/XmlMapping.swift; sourceTree = "<group>"; };
 		6185AF7940B6737772497B83F3744951 /* Pods-JongjuAR-JongjuARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuAR-JongjuARUITests.release.xcconfig"; sourceTree = "<group>"; };
 		644EBC60A8175C7F60B7B3812A279A05 /* Pods-JongjuAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuAR.debug.xcconfig"; sourceTree = "<group>"; };
-		68676CD591957EA4525B4B03D1CF22AD /* CoreGPX */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CoreGPX; path = CoreGPX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AAA0D04800ECC20AD2E9E8E676A01FB /* Pods-JongjuARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuARTests.release.xcconfig"; sourceTree = "<group>"; };
-		715CDC2238D4B239BF3E7E3E9BFBB8B0 /* GPXRawElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRawElement.swift; path = Classes/GPXRawElement.swift; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		74C646A33D19C582BA52F4C6927EFB26 /* Pods-JongjuAR-JongjuARUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JongjuAR-JongjuARUITests-frameworks.sh"; sourceTree = "<group>"; };
 		7602F5C52E358FD09837B39E653C0472 /* Pods-JongjuAR-JongjuARUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JongjuAR-JongjuARUITests"; path = Pods_JongjuAR_JongjuARUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7764EDA8C782087ED55FA79A6F9BE2C4 /* GPXCopyright.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXCopyright.swift; path = Classes/GPXCopyright.swift; sourceTree = "<group>"; };
-		7B45EC4669E8176BB619F389BAF5CACA /* CoreGPX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CoreGPX.debug.xcconfig; sourceTree = "<group>"; };
-		7FB0D6A3024BD577E56BA4D44C88E7E9 /* GPXTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrack.swift; path = Classes/GPXTrack.swift; sourceTree = "<group>"; };
-		81DB0B54643628A4A97450F32F39E7D2 /* GPXError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXError.swift; path = Classes/GPXError.swift; sourceTree = "<group>"; };
-		82CF1A906AFC855DE1DC1D666AFE6FA4 /* CoreGPX-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGPX-umbrella.h"; sourceTree = "<group>"; };
+		7B5726CAE8BB4D7C8554765A5ACE8455 /* XmlJson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XmlJson.release.xcconfig; sourceTree = "<group>"; };
+		7F151CFE3BFC5ED588CC3D34349819FE /* XmlTagProperty.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTagProperty.swift; path = XmlJson/Classes/XmlTagProperty.swift; sourceTree = "<group>"; };
 		84277D2CE24D93992BFF3AB6071DDED8 /* Pods-JongjuARTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuARTests-Info.plist"; sourceTree = "<group>"; };
-		85F6B0A484B0DC687C845E141A55498E /* GPXRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoute.swift; path = Classes/GPXRoute.swift; sourceTree = "<group>"; };
-		8ABA0253EADEE80FEC49728E4BD6EAD2 /* GPXFix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXFix.swift; path = Classes/GPXFix.swift; sourceTree = "<group>"; };
-		8C8777D2EC83FF048C30D5BF674CE3C3 /* GPXTrackPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrackPoint.swift; path = Classes/GPXTrackPoint.swift; sourceTree = "<group>"; };
-		8F1CD3051BF0214086901868AE4F6EE0 /* GPXLegacy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXLegacy.swift; path = Classes/GPXLegacy.swift; sourceTree = "<group>"; };
-		910865F7308B23118B7365D5ED6AB00C /* DateTimeParsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimeParsers.swift; path = Classes/DateTimeParsers.swift; sourceTree = "<group>"; };
-		9811B6AFED4BB0BD857A7915E11F6B67 /* GPXAuthor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXAuthor.swift; path = Classes/GPXAuthor.swift; sourceTree = "<group>"; };
-		9BB022EB59BABAAFEC2375832E2784FB /* GPXExtensionsElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXExtensionsElement.swift; path = Classes/GPXExtensionsElement.swift; sourceTree = "<group>"; };
 		9C74EB0643C4DF0F45D504063B649E66 /* Pods-JongjuAR-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JongjuAR-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE6F9FC36CDE3ACA6AF5ED6ABC49832 /* XmlJson-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XmlJson-Info.plist"; sourceTree = "<group>"; };
 		A03366D7A127A0FFB0725609302661A6 /* Pods-JongjuARTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JongjuARTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0FFBF0D29F4279A2D331E5F712724DD /* GPXCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXCompression.swift; path = Classes/GPXCompression.swift; sourceTree = "<group>"; };
 		A8119AC66C1E9D1A45B34C429D6BAF5E /* Pods-JongjuAR-JongjuARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuAR-JongjuARUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A81F924508AAE1035A6F3713B550646A /* Pods-JongjuAR-JongjuARUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JongjuAR-JongjuARUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B7FF0F68FC9ABB94737E2320ED1EB9A7 /* GPXRoutePoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoutePoint.swift; path = Classes/GPXRoutePoint.swift; sourceTree = "<group>"; };
-		BA9D0C5D70D9F36FA0FE4A813342BF3E /* CoreGPX.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CoreGPX.modulemap; sourceTree = "<group>"; };
+		B9F8D31D7445E93C6829024BD6A9641D /* XmlFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlFrame.swift; path = XmlJson/Classes/XmlFrame.swift; sourceTree = "<group>"; };
 		BBF41F80A52517CEDF11DBDDB1AD5D39 /* Pods-JongjuAR-JongjuARUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuAR-JongjuARUITests-Info.plist"; sourceTree = "<group>"; };
 		C69CAB02823AC0E734FA4230D9FEE39B /* Pods-JongjuAR-JongjuARUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JongjuAR-JongjuARUITests-umbrella.h"; sourceTree = "<group>"; };
 		C90BBAE296F8930E4E0C4A503ECB6B15 /* Pods-JongjuARTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuARTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		CB03680A2D30E0F4AFFF7A824D80A832 /* GPXPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPoint.swift; path = Classes/GPXPoint.swift; sourceTree = "<group>"; };
 		CDCBA48A8CBBA405F278F9E88F15BD96 /* Pods-JongjuARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JongjuARTests.debug.xcconfig"; sourceTree = "<group>"; };
-		D44390214B9EC1CE1B49FD842D45FB69 /* CoreGPX-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreGPX-Info.plist"; sourceTree = "<group>"; };
 		D66042BB303D9E258546B90FB37CF76A /* Pods-JongjuARTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JongjuARTests.modulemap"; sourceTree = "<group>"; };
-		D725E5CFA6FFC9614A9F6133F76FDC25 /* GPXRoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoot.swift; path = Classes/GPXRoot.swift; sourceTree = "<group>"; };
-		D8615A6123BD24F106DC79C2F9CB98AF /* GPXPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPerson.swift; path = Classes/GPXPerson.swift; sourceTree = "<group>"; };
-		D87678126121CDC96B2ADEFEF1351F5C /* NSMutableString+XML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableString+XML.swift"; path = "Classes/NSMutableString+XML.swift"; sourceTree = "<group>"; };
-		D88213203839630873863183CD5EB3D0 /* GPXExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXExtensions.swift; path = Classes/GPXExtensions.swift; sourceTree = "<group>"; };
-		DF0646355892B484DF092FBB3B80801B /* GPXWaypointProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXWaypointProtocol.swift; path = Classes/GPXWaypointProtocol.swift; sourceTree = "<group>"; };
+		DBEF26CE7C8546F820D9EEEFA123E4FA /* XmlJson-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XmlJson-prefix.pch"; sourceTree = "<group>"; };
+		DC5A03E6BF2D6BC955C7B51848FA3554 /* XmlJson-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XmlJson-umbrella.h"; sourceTree = "<group>"; };
 		E014D43458B4F2D6863D7199BAD384C5 /* Pods-JongjuARTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JongjuARTests-dummy.m"; sourceTree = "<group>"; };
-		E64F3872D23A22E503E46F9C9D60FB24 /* GPXBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXBounds.swift; path = Classes/GPXBounds.swift; sourceTree = "<group>"; };
-		EE942B2C965DD237278C625DBA043764 /* GPXWaypoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXWaypoint.swift; path = Classes/GPXWaypoint.swift; sourceTree = "<group>"; };
+		E259C4E3FC42418F7D6D615F50E8158F /* XmlDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlDate.swift; path = XmlJson/Classes/XmlDate.swift; sourceTree = "<group>"; };
 		F1EFE21F46FD762949993DD8B2450F3C /* Pods-JongjuAR-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JongjuAR-acknowledgements.plist"; sourceTree = "<group>"; };
 		F4365ED4C13B2A6A2B9352FD02937348 /* Pods-JongjuAR-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JongjuAR-umbrella.h"; sourceTree = "<group>"; };
-		F854CA20209AFC8106ACFEF457D60020 /* CoreGPX-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreGPX-dummy.m"; sourceTree = "<group>"; };
+		F6E75DCC19CAFEDED91C816FD20B46D2 /* XmlTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XmlTag.swift; path = XmlJson/Classes/XmlTag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BB7F133E5782AF80CAB1DD0FDEC74A9 /* Frameworks */ = {
+		21CE8D1AA899D3C9E4581CB4AD1D0B60 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				012AE6A59141D430700F4AB5916B254D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		217246518A13FAA6F30EAB43F8E31F11 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				32C64AB18CD3F2E60523E2AC1268AB16 /* Foundation.framework in Frameworks */,
+				2337E3A823EE95BDF4AF86045115480C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,17 +120,65 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB2C8DA1724291D509BC4FD43AC26B53 /* Frameworks */ = {
+		6D1AB7DC37DE7EEFBC5252773A4E74A7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550BB35F22F854C3B761EA949FCF4BB1 /* Foundation.framework in Frameworks */,
+				CDC646BF549E7B512664FFB30BB63AD4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72A42EAB216C22F6890B2535329B96BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5ABA662DEE37C3AACEA6B7CFA1ABD65F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04463D4AD23D759C87536D3DA99BA2E4 /* XmlJson */ = {
+			isa = PBXGroup;
+			children = (
+				2CB93E950C39267B2E8A26E0CAC9C434 /* XmlData.swift */,
+				E259C4E3FC42418F7D6D615F50E8158F /* XmlDate.swift */,
+				B9F8D31D7445E93C6829024BD6A9641D /* XmlFrame.swift */,
+				00993970BCAD5C1BE301133F571DCEE5 /* XmlJson.swift */,
+				5ECDC68FFF6266FEEB6D21A6B6A0D833 /* XmlMapping.swift */,
+				F6E75DCC19CAFEDED91C816FD20B46D2 /* XmlTag.swift */,
+				7F151CFE3BFC5ED588CC3D34349819FE /* XmlTagProperty.swift */,
+				3F6F075185EAA9B06A85DE6410D74F5E /* XmlTransformation.swift */,
+				2A7651C00304D937F49FC2F3F8F4A278 /* Support Files */,
+			);
+			name = XmlJson;
+			path = XmlJson;
+			sourceTree = "<group>";
+		};
+		04EC82B2EA828B83C72078C558EBAEEE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				04463D4AD23D759C87536D3DA99BA2E4 /* XmlJson */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2A7651C00304D937F49FC2F3F8F4A278 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7E8493906720651C6C20D5FA00ED73 /* XmlJson.modulemap */,
+				49A6C707FCF807A112DB1B03A2E7DB42 /* XmlJson-dummy.m */,
+				9FE6F9FC36CDE3ACA6AF5ED6ABC49832 /* XmlJson-Info.plist */,
+				DBEF26CE7C8546F820D9EEEFA123E4FA /* XmlJson-prefix.pch */,
+				DC5A03E6BF2D6BC955C7B51848FA3554 /* XmlJson-umbrella.h */,
+				3A3E6D4FEAB0ECC4CAE50CA757167BDC /* XmlJson.debug.xcconfig */,
+				7B5726CAE8BB4D7C8554765A5ACE8455 /* XmlJson.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/XmlJson";
+			sourceTree = "<group>";
+		};
 		31E67EE476C91C2F04161FD7FD597EDD /* Pods-JongjuAR-JongjuARUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -224,6 +220,17 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		5AC5E20BD45B1975A42655D31B5800B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CC3E59CD014EFFFB0228093B2FF8346 /* Pods-JongjuAR */,
+				7602F5C52E358FD09837B39E653C0472 /* Pods-JongjuAR-JongjuARUITests */,
+				0967F4089DE803AB1BE61919FB60CAD7 /* Pods-JongjuARTests */,
+				204A6B2C201C937378610FA721E6E17F /* XmlJson */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		603930EE7D95B146BAD0B259367CA140 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -234,60 +241,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		868E7E8C0163CFA35CD16071E4778354 /* CoreGPX */ = {
-			isa = PBXGroup;
-			children = (
-				4F8441A39A04B5735783770153B5C879 /* Converters.swift */,
-				910865F7308B23118B7365D5ED6AB00C /* DateTimeParsers.swift */,
-				9811B6AFED4BB0BD857A7915E11F6B67 /* GPXAuthor.swift */,
-				E64F3872D23A22E503E46F9C9D60FB24 /* GPXBounds.swift */,
-				A0FFBF0D29F4279A2D331E5F712724DD /* GPXCompression.swift */,
-				7764EDA8C782087ED55FA79A6F9BE2C4 /* GPXCopyright.swift */,
-				5CFBC98C36BFE0F83244808B4212577D /* GPXElement.swift */,
-				36CA217F70ED7EF5F5D0EEA097198A1F /* GPXEmail.swift */,
-				81DB0B54643628A4A97450F32F39E7D2 /* GPXError.swift */,
-				D88213203839630873863183CD5EB3D0 /* GPXExtensions.swift */,
-				9BB022EB59BABAAFEC2375832E2784FB /* GPXExtensionsElement.swift */,
-				8ABA0253EADEE80FEC49728E4BD6EAD2 /* GPXFix.swift */,
-				8F1CD3051BF0214086901868AE4F6EE0 /* GPXLegacy.swift */,
-				3073607694D7A16B4BC17C9283122906 /* GPXLink.swift */,
-				4B662CF017836A9B004521073BC47C15 /* GPXMetadata.swift */,
-				2FA4E735F2DC853599DFA83B5A61B62D /* GPXParser.swift */,
-				D8615A6123BD24F106DC79C2F9CB98AF /* GPXPerson.swift */,
-				CB03680A2D30E0F4AFFF7A824D80A832 /* GPXPoint.swift */,
-				02492BC501F4829E149E0E8CA3AB0C19 /* GPXPointSegment.swift */,
-				715CDC2238D4B239BF3E7E3E9BFBB8B0 /* GPXRawElement.swift */,
-				D725E5CFA6FFC9614A9F6133F76FDC25 /* GPXRoot.swift */,
-				85F6B0A484B0DC687C845E141A55498E /* GPXRoute.swift */,
-				B7FF0F68FC9ABB94737E2320ED1EB9A7 /* GPXRoutePoint.swift */,
-				06B725CECBB1BADB483EAA4A5E44F12D /* GPXRouteProtocol.swift */,
-				7FB0D6A3024BD577E56BA4D44C88E7E9 /* GPXTrack.swift */,
-				8C8777D2EC83FF048C30D5BF674CE3C3 /* GPXTrackPoint.swift */,
-				1BE11C4D542DC9160620238E818FE096 /* GPXTrackSegment.swift */,
-				EE942B2C965DD237278C625DBA043764 /* GPXWaypoint.swift */,
-				DF0646355892B484DF092FBB3B80801B /* GPXWaypointProtocol.swift */,
-				D87678126121CDC96B2ADEFEF1351F5C /* NSMutableString+XML.swift */,
-				D5D42FA9B4EAF9B0E756AF2B0F8AC447 /* Support Files */,
-			);
-			name = CoreGPX;
-			path = CoreGPX;
-			sourceTree = "<group>";
-		};
-		C7999110956D72B3538AF115FB5CF470 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				868E7E8C0163CFA35CD16071E4778354 /* CoreGPX */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				C7999110956D72B3538AF115FB5CF470 /* Pods */,
-				FF738920DE597F420F7B7804F0165882 /* Products */,
+				04EC82B2EA828B83C72078C558EBAEEE /* Pods */,
+				5AC5E20BD45B1975A42655D31B5800B0 /* Products */,
 				603930EE7D95B146BAD0B259367CA140 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -317,40 +277,14 @@
 			path = "Target Support Files/Pods-JongjuAR";
 			sourceTree = "<group>";
 		};
-		D5D42FA9B4EAF9B0E756AF2B0F8AC447 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA9D0C5D70D9F36FA0FE4A813342BF3E /* CoreGPX.modulemap */,
-				F854CA20209AFC8106ACFEF457D60020 /* CoreGPX-dummy.m */,
-				D44390214B9EC1CE1B49FD842D45FB69 /* CoreGPX-Info.plist */,
-				1B195431C8375B5C51B8117EE400E992 /* CoreGPX-prefix.pch */,
-				82CF1A906AFC855DE1DC1D666AFE6FA4 /* CoreGPX-umbrella.h */,
-				7B45EC4669E8176BB619F389BAF5CACA /* CoreGPX.debug.xcconfig */,
-				282224514E02414579CF9C32F292E55D /* CoreGPX.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CoreGPX";
-			sourceTree = "<group>";
-		};
-		FF738920DE597F420F7B7804F0165882 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				68676CD591957EA4525B4B03D1CF22AD /* CoreGPX */,
-				2CC3E59CD014EFFFB0228093B2FF8346 /* Pods-JongjuAR */,
-				7602F5C52E358FD09837B39E653C0472 /* Pods-JongjuAR-JongjuARUITests */,
-				0967F4089DE803AB1BE61919FB60CAD7 /* Pods-JongjuARTests */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		247DE0ADCA5EAEFFC5612D8E7FBF47DF /* Headers */ = {
+		061FA7D7AF8C41B6B0D98185932D1E94 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520289DBD833A3AB3DEEE04E572A1D24 /* CoreGPX-umbrella.h in Headers */,
+				7FDF852A9E02CEF9D0467487ADD401E5 /* Pods-JongjuAR-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,56 +296,56 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762F50B3A6597CF36056A375754854CE /* Headers */ = {
+		348E0224C507C5F7954FCC20BD04364D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				565D468D707410D9B4A130900758F926 /* Pods-JongjuAR-umbrella.h in Headers */,
+				5DFE1E279FD2E63E6445C63732DE6CC2 /* XmlJson-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B12A48B74CEA626CBB8517201567DF35 /* Headers */ = {
+		C3D58B612D5A214977DAF4D6D6CDDA6A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C2AFEC3117C09B1674F6B56DDCF6FB7 /* Pods-JongjuAR-JongjuARUITests-umbrella.h in Headers */,
+				9A5D7D28D8DA86EA01D817AFAE84C58B /* Pods-JongjuAR-JongjuARUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		493735E92C5B6068F445B48D0CA7B736 /* CoreGPX */ = {
+		4026AA9FC23D6EC39D63398598B13C59 /* XmlJson */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E3E118CB11A5DB1D2A8E0304E3AC5540 /* Build configuration list for PBXNativeTarget "CoreGPX" */;
+			buildConfigurationList = 589475B30205E72329AEC3B3E924077A /* Build configuration list for PBXNativeTarget "XmlJson" */;
 			buildPhases = (
-				247DE0ADCA5EAEFFC5612D8E7FBF47DF /* Headers */,
-				FC03CA6F651FCEFCE72C35F4005391DE /* Sources */,
-				217246518A13FAA6F30EAB43F8E31F11 /* Frameworks */,
-				505E9FDCDFF3AAF0D444AA66EB08695C /* Resources */,
+				348E0224C507C5F7954FCC20BD04364D /* Headers */,
+				708575BEB3A05274719DF5EB39373E62 /* Sources */,
+				21CE8D1AA899D3C9E4581CB4AD1D0B60 /* Frameworks */,
+				CAAB7C79BF0C358338B61B04DB8C2F7E /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = CoreGPX;
-			productName = CoreGPX;
-			productReference = 68676CD591957EA4525B4B03D1CF22AD /* CoreGPX */;
+			name = XmlJson;
+			productName = XmlJson;
+			productReference = 204A6B2C201C937378610FA721E6E17F /* XmlJson */;
 			productType = "com.apple.product-type.framework";
 		};
 		69360274C35F01A805351CE8107D29B7 /* Pods-JongjuAR-JongjuARUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A11FC7F54BB59BFDFA1FA17E78C39DA5 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR-JongjuARUITests" */;
+			buildConfigurationList = AE2C9B9F01863846A6F4308EB33EE714 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR-JongjuARUITests" */;
 			buildPhases = (
-				B12A48B74CEA626CBB8517201567DF35 /* Headers */,
-				DB27C60055723F3464D12961FCB4783E /* Sources */,
-				1BB7F133E5782AF80CAB1DD0FDEC74A9 /* Frameworks */,
-				333CE1B4C1D8EEDB0F4B18DA6413CFCA /* Resources */,
+				C3D58B612D5A214977DAF4D6D6CDDA6A /* Headers */,
+				7C79A32091CC6B1E96A55008B9B7F2D0 /* Sources */,
+				72A42EAB216C22F6890B2535329B96BC /* Frameworks */,
+				A9D51A811AB7BE548737910C50B4EF16 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5084D5C11445399DD0CD3BC4DCAD0045 /* PBXTargetDependency */,
+				E66A9BE8EFC7CC8A3DEA4C0983D420DA /* PBXTargetDependency */,
 			);
 			name = "Pods-JongjuAR-JongjuARUITests";
 			productName = Pods_JongjuAR_JongjuARUITests;
@@ -420,17 +354,17 @@
 		};
 		B2995448527DCFC82E1D607B41F05921 /* Pods-JongjuAR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5839E07CF9096B11289F3B887A63B952 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR" */;
+			buildConfigurationList = 23BA8EF7DF91DA62D25E9236499D948B /* Build configuration list for PBXNativeTarget "Pods-JongjuAR" */;
 			buildPhases = (
-				762F50B3A6597CF36056A375754854CE /* Headers */,
-				1298AD16F8A1B06521677A12535D763C /* Sources */,
-				CB2C8DA1724291D509BC4FD43AC26B53 /* Frameworks */,
-				77ED721AF5261170CBDE49D44BD2DA0A /* Resources */,
+				061FA7D7AF8C41B6B0D98185932D1E94 /* Headers */,
+				ACB1BD34499C5DC8B13AFD97E90CD821 /* Sources */,
+				6D1AB7DC37DE7EEFBC5252773A4E74A7 /* Frameworks */,
+				F50B63CAB9EE22E19ACC39D94AFE8574 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8402DCD85DBE0A57028D65F1F65CCEA4 /* PBXTargetDependency */,
+				E9FBB563A535C9D527A3C1F728BE9453 /* PBXTargetDependency */,
 			);
 			name = "Pods-JongjuAR";
 			productName = Pods_JongjuAR;
@@ -449,7 +383,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				FF1897EB152654B744462A4C6CF62767 /* PBXTargetDependency */,
+				82D7386CD78B834462D949951BFD664B /* PBXTargetDependency */,
 			);
 			name = "Pods-JongjuARTests";
 			productName = Pods_JongjuARTests;
@@ -474,34 +408,34 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FF738920DE597F420F7B7804F0165882 /* Products */;
+			productRefGroup = 5AC5E20BD45B1975A42655D31B5800B0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				493735E92C5B6068F445B48D0CA7B736 /* CoreGPX */,
 				B2995448527DCFC82E1D607B41F05921 /* Pods-JongjuAR */,
 				69360274C35F01A805351CE8107D29B7 /* Pods-JongjuAR-JongjuARUITests */,
 				BF63FE49DCC4A8BD058BD0C4D7C1805E /* Pods-JongjuARTests */,
+				4026AA9FC23D6EC39D63398598B13C59 /* XmlJson */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		333CE1B4C1D8EEDB0F4B18DA6413CFCA /* Resources */ = {
+		A9D51A811AB7BE548737910C50B4EF16 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		505E9FDCDFF3AAF0D444AA66EB08695C /* Resources */ = {
+		CAAB7C79BF0C358338B61B04DB8C2F7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		77ED721AF5261170CBDE49D44BD2DA0A /* Resources */ = {
+		F50B63CAB9EE22E19ACC39D94AFE8574 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -518,14 +452,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1298AD16F8A1B06521677A12535D763C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				740231397FE214C40F1D06CCC65E1312 /* Pods-JongjuAR-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4CF351F2626CC0C199FFD03FFA142582 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -534,151 +460,62 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DB27C60055723F3464D12961FCB4783E /* Sources */ = {
+		708575BEB3A05274719DF5EB39373E62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D76B057D13B46056E55C629B09ADF0E7 /* Pods-JongjuAR-JongjuARUITests-dummy.m in Sources */,
+				EF56836BF3DF862AA39B9D1452285D72 /* XmlData.swift in Sources */,
+				4FF7288DDB020CE560FB6340FD09E5D3 /* XmlDate.swift in Sources */,
+				E852225562B331127E1C5EA71890B7A4 /* XmlFrame.swift in Sources */,
+				409607363088183D7172F07E7062704E /* XmlJson.swift in Sources */,
+				432DE6DBD779C21A151A681832F13BBB /* XmlJson-dummy.m in Sources */,
+				5EBBBEB89B242DC953F33B3255F1ECC7 /* XmlMapping.swift in Sources */,
+				8B233DC24668901C5F9A1CE4E8AEB821 /* XmlTag.swift in Sources */,
+				1A1C43F326A6151901C0857E75EFBFD9 /* XmlTagProperty.swift in Sources */,
+				2AFD754DDDCD00E831170C78075B5697 /* XmlTransformation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC03CA6F651FCEFCE72C35F4005391DE /* Sources */ = {
+		7C79A32091CC6B1E96A55008B9B7F2D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8561A7139E2AAFBDCA9A26ABA45796B2 /* Converters.swift in Sources */,
-				CB6B0AD88496E6436BC8D22B494F751D /* CoreGPX-dummy.m in Sources */,
-				1B8EDB17F6F552AADD6A4C0889CC45B7 /* DateTimeParsers.swift in Sources */,
-				066F140F881A30F460D97B28176AC535 /* GPXAuthor.swift in Sources */,
-				792FB4D78BDBE1495508A9C35CED6ADB /* GPXBounds.swift in Sources */,
-				6ADD5D4FA0D791F419447FA08EB7D206 /* GPXCompression.swift in Sources */,
-				90A48FA25FE82EAE6FC4B1F85F30DE4D /* GPXCopyright.swift in Sources */,
-				88A8B381273D76D3EA808663A34017E3 /* GPXElement.swift in Sources */,
-				17A2FB0CA678F74913D74DD693722EDC /* GPXEmail.swift in Sources */,
-				928845D9C73A9B7CD079198BCD8262DF /* GPXError.swift in Sources */,
-				172A875560ED4CCAAFD7BD59343620CD /* GPXExtensions.swift in Sources */,
-				4B6684199FCBDFD2E1D1FB1AE2FE4E12 /* GPXExtensionsElement.swift in Sources */,
-				EAF96204B65771082CC3C995EEA68E5D /* GPXFix.swift in Sources */,
-				0398B9327CEFE5409D9780F7AB2FB480 /* GPXLegacy.swift in Sources */,
-				2209F75959A56AB2EDE4450F8B1C1934 /* GPXLink.swift in Sources */,
-				575B1EC64934071D8BAC834BE27618D0 /* GPXMetadata.swift in Sources */,
-				35E2A5FDB8F88903F7E8A799C5085819 /* GPXParser.swift in Sources */,
-				0AE4791906FF6CF77A501001CA758CB5 /* GPXPerson.swift in Sources */,
-				0D56EB72B99B01416542A3B1BB27A0DF /* GPXPoint.swift in Sources */,
-				9F0164977868A7659754D91695F705D8 /* GPXPointSegment.swift in Sources */,
-				86BEB8439E47AD82EDB5E2F6AE4B0EDD /* GPXRawElement.swift in Sources */,
-				D6CAAC8130A312DA26B8DDBA431A64FB /* GPXRoot.swift in Sources */,
-				4E0B1FF2EBB5F6579FEA1727D1491D17 /* GPXRoute.swift in Sources */,
-				2A3EC6BA307F9B79F7B7A22F39DB8EAC /* GPXRoutePoint.swift in Sources */,
-				A325289F545C0EBF0D025CFA1D2DDB84 /* GPXRouteProtocol.swift in Sources */,
-				4702768004D49FD9CA1DEDDC1E733116 /* GPXTrack.swift in Sources */,
-				F612401B4C88DAF8001512DF0EB81AD8 /* GPXTrackPoint.swift in Sources */,
-				94AC918CF449E8BB5B1DF83963D2EE1C /* GPXTrackSegment.swift in Sources */,
-				D1A8A5DFE5D4DB1AEC0A8306FA6B463B /* GPXWaypoint.swift in Sources */,
-				E62FF4C45D4885E0DBC36CEE65CC62B6 /* GPXWaypointProtocol.swift in Sources */,
-				37A1850CD71CA0BF9E3CD9BCC30C6AA2 /* NSMutableString+XML.swift in Sources */,
+				F7C6E85DE13886125601AE4462CE2976 /* Pods-JongjuAR-JongjuARUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACB1BD34499C5DC8B13AFD97E90CD821 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277DF08952E989F00B1AAA92F822FFAE /* Pods-JongjuAR-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5084D5C11445399DD0CD3BC4DCAD0045 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CoreGPX;
-			target = 493735E92C5B6068F445B48D0CA7B736 /* CoreGPX */;
-			targetProxy = D8CB20B750F5C93E7F6064FC694A6A3A /* PBXContainerItemProxy */;
-		};
-		8402DCD85DBE0A57028D65F1F65CCEA4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CoreGPX;
-			target = 493735E92C5B6068F445B48D0CA7B736 /* CoreGPX */;
-			targetProxy = 5A3A41C90B4F9121E999F5FFB2E3187A /* PBXContainerItemProxy */;
-		};
-		FF1897EB152654B744462A4C6CF62767 /* PBXTargetDependency */ = {
+		82D7386CD78B834462D949951BFD664B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-JongjuAR";
 			target = B2995448527DCFC82E1D607B41F05921 /* Pods-JongjuAR */;
-			targetProxy = 1D203134D997D5F5219E4EA6142B7D1A /* PBXContainerItemProxy */;
+			targetProxy = 80A01BF5EF1339970565655B152C224D /* PBXContainerItemProxy */;
+		};
+		E66A9BE8EFC7CC8A3DEA4C0983D420DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XmlJson;
+			target = 4026AA9FC23D6EC39D63398598B13C59 /* XmlJson */;
+			targetProxy = C5655C30988CBA1C7470BB4E02EFE86C /* PBXContainerItemProxy */;
+		};
+		E9FBB563A535C9D527A3C1F728BE9453 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XmlJson;
+			target = 4026AA9FC23D6EC39D63398598B13C59 /* XmlJson */;
+			targetProxy = 8721D6762F64A5C74F377BA1C75BF589 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		265C07F398E40519A050640B37CE0FD0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A8119AC66C1E9D1A45B34C429D6BAF5E /* Pods-JongjuAR-JongjuARUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		31CA434025BE925688E31F6BF0D5E9AB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6185AF7940B6737772497B83F3744951 /* Pods-JongjuAR-JongjuARUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		42375DF4E1B74C0C541D08F9433530FF /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AAA0D04800ECC20AD2E9E8E676A01FB /* Pods-JongjuARTests.release.xcconfig */;
@@ -717,7 +554,44 @@
 			};
 			name = Release;
 		};
-		52DB875C543C57666FBF4723CF53C25E /* Debug */ = {
+		4B7DBB27EDA48AA7E3D7C723F0C5C238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8119AC66C1E9D1A45B34C429D6BAF5E /* Pods-JongjuAR-JongjuARUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		920E8A16636EB7BB1D67A2C5D720246D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 644EBC60A8175C7F60B7B3812A279A05 /* Pods-JongjuAR.debug.xcconfig */;
 			buildSettings = {
@@ -753,113 +627,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		6B8F604E162CA356889CABA42F8E0D7B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B45EC4669E8176BB619F389BAF5CACA /* CoreGPX.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX/CoreGPX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoreGPX/CoreGPX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CoreGPX/CoreGPX.modulemap";
-				PRODUCT_MODULE_NAME = CoreGPX;
-				PRODUCT_NAME = CoreGPX;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		81E5C72C910588DCDD194B6E8A38ABD5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 282224514E02414579CF9C32F292E55D /* CoreGPX.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX/CoreGPX-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CoreGPX/CoreGPX-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/CoreGPX/CoreGPX.modulemap";
-				PRODUCT_MODULE_NAME = CoreGPX;
-				PRODUCT_NAME = CoreGPX;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		86D0F78EAD48255B52888318BFCE746C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 12CE62D8560640906E70927DC75BCB73 /* Pods-JongjuAR.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR/Pods-JongjuAR-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR/Pods-JongjuAR.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		92486E5E72E54FAF60E1A7D022C21B10 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -989,6 +756,44 @@
 			};
 			name = Debug;
 		};
+		A1BA339576DFBA414BEFA40D519D7E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6185AF7940B6737772497B83F3744951 /* Pods-JongjuAR-JongjuARUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A4DED690D275509643A78D2DC03A79DE /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CDCBA48A8CBBA405F278F9E88F15BD96 /* Pods-JongjuARTests.debug.xcconfig */;
@@ -1026,9 +831,125 @@
 			};
 			name = Debug;
 		};
+		C66D3B33A0A20F427A15F0557CD3304D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B5726CAE8BB4D7C8554765A5ACE8455 /* XmlJson.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XmlJson/XmlJson-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XmlJson/XmlJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XmlJson/XmlJson.modulemap";
+				PRODUCT_MODULE_NAME = XmlJson;
+				PRODUCT_NAME = XmlJson;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C94AA8C1D5C78D4A6EFB9E5776F6F95C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A3E6D4FEAB0ECC4CAE50CA757167BDC /* XmlJson.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/XmlJson/XmlJson-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/XmlJson/XmlJson-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/XmlJson/XmlJson.modulemap";
+				PRODUCT_MODULE_NAME = XmlJson;
+				PRODUCT_NAME = XmlJson;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5808E23D482A5C90D745CF61D08FABE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12CE62D8560640906E70927DC75BCB73 /* Pods-JongjuAR.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-JongjuAR/Pods-JongjuAR-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-JongjuAR/Pods-JongjuAR.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		23BA8EF7DF91DA62D25E9236499D948B /* Build configuration list for PBXNativeTarget "Pods-JongjuAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920E8A16636EB7BB1D67A2C5D720246D /* Debug */,
+				F5808E23D482A5C90D745CF61D08FABE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1047,29 +968,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5839E07CF9096B11289F3B887A63B952 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR" */ = {
+		589475B30205E72329AEC3B3E924077A /* Build configuration list for PBXNativeTarget "XmlJson" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				52DB875C543C57666FBF4723CF53C25E /* Debug */,
-				86D0F78EAD48255B52888318BFCE746C /* Release */,
+				C94AA8C1D5C78D4A6EFB9E5776F6F95C /* Debug */,
+				C66D3B33A0A20F427A15F0557CD3304D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A11FC7F54BB59BFDFA1FA17E78C39DA5 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR-JongjuARUITests" */ = {
+		AE2C9B9F01863846A6F4308EB33EE714 /* Build configuration list for PBXNativeTarget "Pods-JongjuAR-JongjuARUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				265C07F398E40519A050640B37CE0FD0 /* Debug */,
-				31CA434025BE925688E31F6BF0D5E9AB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E3E118CB11A5DB1D2A8E0304E3AC5540 /* Build configuration list for PBXNativeTarget "CoreGPX" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6B8F604E162CA356889CABA42F8E0D7B /* Debug */,
-				81E5C72C910588DCDD194B6E8A38ABD5 /* Release */,
+				4B7DBB27EDA48AA7E3D7C723F0C5C238 /* Debug */,
+				A1BA339576DFBA414BEFA40D519D7E75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

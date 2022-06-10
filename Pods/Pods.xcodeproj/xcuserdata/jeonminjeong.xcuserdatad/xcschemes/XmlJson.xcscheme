@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "493735E92C5B6068F445B48D0CA7B736"
-               BuildableName = "CoreGPX.framework"
-               BlueprintName = "CoreGPX"
+               BlueprintIdentifier = "4026AA9FC23D6EC39D63398598B13C59"
+               BuildableName = "XmlJson.framework"
+               BlueprintName = "XmlJson"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

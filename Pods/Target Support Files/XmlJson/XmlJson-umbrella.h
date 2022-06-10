@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CoreGPXVersionNumber;
-FOUNDATION_EXPORT const unsigned char CoreGPXVersionString[];
+FOUNDATION_EXPORT double XmlJsonVersionNumber;
+FOUNDATION_EXPORT const unsigned char XmlJsonVersionString[];
 
