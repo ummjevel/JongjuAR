@@ -7,6 +7,11 @@
 
 import Foundation
 import UIKit
+import XmlJson
+
+
+let fileManger = FileManager.default
+let documentsUrl: URL = fileManger.urls(for: .documentDirectory, in: .userDomainMask).first!
 
 // Gpx File download
 func DownloadGpx(gpxPath: String, gpxFile: String) -> Bool {
@@ -33,7 +38,6 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
     
     var result = false
     // Create destination URL
-    let documentsUrl: URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(savedName)
     
     // Create URL to the source file you want to download
@@ -43,6 +47,7 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
     let request = URLRequest(url:fileURL!)
     
     // Make folder specified this app
+    /*
     let folderPath = documentsUrl.appendingPathComponent("JongjuAR")
     if !FileManager.default.fileExists(atPath: folderPath.path) {
         do {
@@ -51,6 +56,7 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
             print("Coundn't create directory for this app...")
         }
     }
+    */
     
     // Download file
     let task = session.downloadTask(with: request) { (tempLocalUrl, response, error) in
@@ -61,7 +67,7 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
             }
             
             do {
-                try FileManager.default.copyItem(at: tempLocalUrl, to: destinationFileUrl)
+                try fileManger.copyItem(at: tempLocalUrl, to: destinationFileUrl)
             } catch (let writeError) {
                 print("Error creating a file \(destinationFileUrl) : \(writeError)")
             }
@@ -80,21 +86,21 @@ func IsDownloaded(gpx: String) -> Bool {
     // 저장해놓는 폴더 경로에서 찾아보기.
     
     // Create destination URL
-    let documentsUrl: URL = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask).first!
     let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(gpx)
     
     // Make folder specified this app if folder is not exists
+    // file download 전에 iddownloaded 로 확인하기 때문에 폴더 경로가 안 만들어지는 상황은 없다고 가정.
     let folderPath = documentsUrl.appendingPathComponent("JongjuAR")
-    if !FileManager.default.fileExists(atPath: folderPath.path) {
+    if !fileManger.fileExists(atPath: folderPath.path) {
         do {
-            try FileManager.default.createDirectory(atPath: folderPath.path, withIntermediateDirectories: true)
+            try fileManger.createDirectory(atPath: folderPath.path, withIntermediateDirectories: true)
         } catch {
             print("Coundn't create directory for this app...")
         }
     }
     
     // Check exists
-    if FileManager.default.fileExists(atPath: destinationFileUrl.path) {
+    if fileManger.fileExists(atPath: destinationFileUrl.path) {
         return true
     } else {
         return false
@@ -104,15 +110,45 @@ func IsDownloaded(gpx: String) -> Bool {
 // Parse GPX file.
 func ParseGPX(gpx: String) {
     
+    let isDebug = true
+    
     // IsDownloaded
+    /*
     let isDownloaded = IsDownloaded(gpx: gpx)
     
     if (!isDownloaded) {
         print("Is Not Downloaded...")
         return
     }
+     */
     
     // get file
+    if(isDebug) {
+        // 지금은 그냥 옆에 저장되어있는 것 불러오도록 하고,
+        do {
+            var destinationFileUrl: String = fileManger.currentDirectoryPath
+                // .appendingPathComponent("백두대간_지리산권_종주_1코스.gpx")
+            destinationFileUrl.append(contentsOf: "백두대간_지리산권_종주_1코스.gpx")
+            let dataPath = URL(fileURLWithPath: destinationFileUrl)
+            let dataFromPath: Data = try Data(contentsOf: dataPath)
+            let data: String = String(data: dataFromPath, encoding: .utf8) ?? ""
+            print(data)
+        } catch let e {
+            print(e.localizedDescription)
+        }
+        
+    } else {
+        // 이후에는 폴더 경로에서 불러와야함.
+        // Create destination URL
+        do {
+            let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(gpx)
+            let dataFromPath: Data = try Data(contentsOf: destinationFileUrl)
+            let data: String = String(data: dataFromPath, encoding: .utf8) ?? ""
+            print(data)
+        } catch let e {
+            print(e.localizedDescription)
+        }
+    }
     
     // parse file
     

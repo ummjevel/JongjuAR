@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E0662F9284F2C1C00A8702B /* 백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E0662F8284F2C1C00A8702B /* 백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx */; };
 		1E066300284F2C2F00A8702B /* 백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E0662FA284F2C2F00A8702B /* 백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx */; };
 		1E066301284F2C2F00A8702B /* 백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E0662FB284F2C2F00A8702B /* 백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx */; };
 		1E066302284F2C2F00A8702B /* 백두대간_지리산권_종주_5코스_입망치-매요마을.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E0662FC284F2C2F00A8702B /* 백두대간_지리산권_종주_5코스_입망치-매요마을.gpx */; };
@@ -17,6 +16,7 @@
 		1E0663072850880200A8702B /* Backdu.json in Resources */ = {isa = PBXBuildFile; fileRef = 1E0663062850880200A8702B /* Backdu.json */; };
 		1E06630928508DC800A8702B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06630828508DC800A8702B /* Model.swift */; };
 		1E06630B2851C2CF00A8702B /* Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E06630A2851C2CF00A8702B /* Util.swift */; };
+		1E06630D285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1E06630C285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx */; };
 		1E53F8AC284DA718008B77B4 /* JongjuARApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */; };
 		1E53F8AE284DA718008B77B4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8AD284DA718008B77B4 /* ContentView.swift */; };
 		1E53F8B0284DA722008B77B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E53F8AF284DA722008B77B4 /* Assets.xcassets */; };
@@ -49,7 +49,6 @@
 /* Begin PBXFileReference section */
 		00C0D992151D564945BA3CE3 /* Pods-JongjuARTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongjuARTests.debug.xcconfig"; path = "Target Support Files/Pods-JongjuARTests/Pods-JongjuARTests.debug.xcconfig"; sourceTree = "<group>"; };
 		0BDA5E254A4BF3C9F353CF19 /* Pods-JongjuAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongjuAR.debug.xcconfig"; path = "Target Support Files/Pods-JongjuAR/Pods-JongjuAR.debug.xcconfig"; sourceTree = "<group>"; };
-		1E0662F8284F2C1C00A8702B /* 백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx"; sourceTree = "<group>"; };
 		1E0662FA284F2C2F00A8702B /* 백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx"; sourceTree = "<group>"; };
 		1E0662FB284F2C2F00A8702B /* 백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx"; sourceTree = "<group>"; };
 		1E0662FC284F2C2F00A8702B /* 백두대간_지리산권_종주_5코스_입망치-매요마을.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_5코스_입망치-매요마을.gpx"; sourceTree = "<group>"; };
@@ -59,6 +58,7 @@
 		1E0663062850880200A8702B /* Backdu.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Backdu.json; sourceTree = "<group>"; };
 		1E06630828508DC800A8702B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1E06630A2851C2CF00A8702B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
+		1E06630C285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_1코스.gpx"; sourceTree = "<group>"; };
 		1E53F8A8284DA718008B77B4 /* JongjuAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JongjuAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongjuARApp.swift; sourceTree = "<group>"; };
 		1E53F8AD284DA718008B77B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -144,13 +144,13 @@
 				1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */,
 				1E53F8AD284DA718008B77B4 /* ContentView.swift */,
 				1E53F8AF284DA722008B77B4 /* Assets.xcassets */,
+				1E06630C285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx */,
 				1E0662FD284F2C2F00A8702B /* 백두대간_지리산권_종주_2코스_세석산장-토끼봉.gpx */,
 				1E0662FB284F2C2F00A8702B /* 백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx */,
 				1E0662FF284F2C2F00A8702B /* 백두대간_지리산권_종주_4코스_헬기장-입망치.gpx */,
 				1E0662FC284F2C2F00A8702B /* 백두대간_지리산권_종주_5코스_입망치-매요마을.gpx */,
 				1E0662FA284F2C2F00A8702B /* 백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx */,
 				1E0662FE284F2C2F00A8702B /* 백두대간_지리산권_종주_7코스_꼬부랑재-중고개재.gpx */,
-				1E0662F8284F2C1C00A8702B /* 백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx */,
 				1E53F8B1284DA722008B77B4 /* Preview Content */,
 				1E0663062850880200A8702B /* Backdu.json */,
 				1E06630828508DC800A8702B /* Model.swift */,
@@ -306,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E06630D285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx in Resources */,
 				1E066304284F2C2F00A8702B /* 백두대간_지리산권_종주_7코스_꼬부랑재-중고개재.gpx in Resources */,
 				1E0663072850880200A8702B /* Backdu.json in Resources */,
 				1E066300284F2C2F00A8702B /* 백두대간_지리산권_종주_6코스_매요마을-꼬부랑재.gpx in Resources */,
@@ -314,7 +315,6 @@
 				1E066301284F2C2F00A8702B /* 백두대간_지리산권_종주_3코스_토끼봉-헬기장.gpx in Resources */,
 				1E066305284F2C2F00A8702B /* 백두대간_지리산권_종주_4코스_헬기장-입망치.gpx in Resources */,
 				1E066302284F2C2F00A8702B /* 백두대간_지리산권_종주_5코스_입망치-매요마을.gpx in Resources */,
-				1E0662F9284F2C1C00A8702B /* 백두대간_지리산권_종주_1코스_천왕봉-세석산장.gpx in Resources */,
 				1E53F8B0284DA722008B77B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

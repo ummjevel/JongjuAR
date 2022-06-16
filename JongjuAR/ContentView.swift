@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-import CoreGPX
 
 struct ContentView: View {
     
@@ -31,6 +30,8 @@ struct DownloadGPXView: View {
     
     @Environment(\.colorScheme) var colorScheme
     @State private var showingAlert = false
+    @State private var showingErrorAlert = false
+    let isDebug = true
     
     var route: Route
     
@@ -45,16 +46,38 @@ struct DownloadGPXView: View {
                     // print(course.gpx)
                     // download 여부 확인
                     // true : open
-                    // false : download
-                    self.showingAlert = true
+                    if (IsDownloaded(gpx: course.gpx)) {
+                        // open map
+                    } else {
+                        // false : download
+                        self.showingAlert = true
+                    }
                     
                 } label: {
                     Text(course.name)
                 }.foregroundColor(colorScheme == .dark ? Color.white : Color.black)
-                .alert(isPresented: $showingAlert) {
-                    Alert(title: Text("GPX 파일을 다운로드 받으시겠습니까?"), message: Text("다운로드 받아야 경로를 확인할 수 있습니다."), primaryButton: .destructive(Text("OK")) {
-                        print("다운로드받기!")
-                    }, secondaryButton: .cancel())
+                .alert("GPX 파일을 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
+                    Button("OK", role: .cancel) {
+                        let result = DownloadGpx(gpxPath: course.gpx, gpxFile: course.gpxPath)
+                        if (isDebug) {
+                            ParseGPX(gpx: course.gpx)
+                        } else {
+                            if(!result) {
+                                showingErrorAlert = true
+                            } else {
+                                ParseGPX(gpx: course.gpx)
+                            }
+                        }
+                        
+                    }
+                    Button("Cancel", role: .destructive) {
+                
+                    }
+                }
+                .alert("에러가 발생하였습니다. 관리자에게 문의바랍니다.", isPresented: $showingErrorAlert) {
+                    Button("OK", role: .cancel) {
+                        
+                    }
                 }
             }
         }

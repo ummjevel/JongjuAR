@@ -7,6 +7,9 @@
 
 import Foundation
 
+
+// Backdu.json
+
 struct Course : Codable, Identifiable {
     enum CodingKeys: CodingKey {
         case num
@@ -57,5 +60,7 @@ struct Jongju : Identifiable, Codable {
     var name: String    // 백두대간
     var routes: [Route]
 }
+
+// gpx file
 
 
