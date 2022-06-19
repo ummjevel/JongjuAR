@@ -15,23 +15,8 @@ let documentsUrl: URL = fileManger.urls(for: .documentDirectory, in: .userDomain
 
 // Gpx File download
 func DownloadGpx(gpxPath: String, gpxFile: String) -> Bool {
-    // url 유효한지 확인 비어있으면 비었다고
-    var result = false
-    let url = URL(fileURLWithPath: gpxPath)
     
-    URLSession.shared.dataTask(with: url) { data, resp, err in
-        guard let resp = resp as? HTTPURLResponse else {
-            print("Not http url...")
-            return }
-        if (200..<300).contains(resp.statusCode) { // url 유효
-            // download
-            result = DownloadFileFromUrl(urlPath: gpxPath, savedName: gpxFile)
-        } else {
-            return
-        }
-    }.resume()
-            
-    return result
+    return DownloadFileFromUrl(urlPath: gpxPath, savedName: gpxFile)
 }
 
 func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
@@ -68,6 +53,7 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
             
             do {
                 try fileManger.copyItem(at: tempLocalUrl, to: destinationFileUrl)
+                print("Downloaded complete...")
             } catch (let writeError) {
                 print("Error creating a file \(destinationFileUrl) : \(writeError)")
             }
@@ -123,32 +109,70 @@ func ParseGPX(gpx: String) {
      */
     
     // get file
-    if(isDebug) {
-        // 지금은 그냥 옆에 저장되어있는 것 불러오도록 하고,
-        do {
-            var destinationFileUrl: String = fileManger.currentDirectoryPath
-                // .appendingPathComponent("백두대간_지리산권_종주_1코스.gpx")
-            destinationFileUrl.append(contentsOf: "백두대간_지리산권_종주_1코스.gpx")
-            let dataPath = URL(fileURLWithPath: destinationFileUrl)
-            let dataFromPath: Data = try Data(contentsOf: dataPath)
-            let data: String = String(data: dataFromPath, encoding: .utf8) ?? ""
-            print(data)
-        } catch let e {
-            print(e.localizedDescription)
+
+    // Create destination URL
+    do {
+        let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(gpx)
+        let dataFromPath: Data = try Data(contentsOf: destinationFileUrl)
+        let data: String = String(data: dataFromPath, encoding: .utf8) ?? ""
+        // print(data)
+        
+        let xmlDict = XmlJson(
+            xmlString: data,
+            mappings: [
+                .array("trkseg", element: "trkpt"),
+                .array("trk", element: "trkseg"),
+                .textNode("ele"),
+                .textNode("time"),
+                .textNode("name"),
+                .array("gpx", element: "wpt"),
+                .array("wpt", element: "desc_"),
+                .textNode("sym"),
+                .textNode("category"),
+                .textNode("signpost1"),
+                .textNode("signpost2"),
+                .textNode("signpost3"),
+                .textNode("signpost4"),
+                .textNode("elevation"),
+                .textNode("ele")
+            ],
+            // NOTE: Mappings HAVE to return a primitive type (String, Double, Int, Bool)
+            transformations: [
+                .double("ele"),
+                .double("lon"),
+                .double("lat"),
+                .dateStringToUnixSeconds("time"),
+                .int("elevation")
+                
+            ]
+        )
+        // print(xmlDict?.jsonString)
+        // json model 만들기
+        // json decoder 사용
+        
+        guard let jsonData = xmlDict?.data else {
+            print("xmlDict?.data 가 없습니다.")
+            return
         }
         
-    } else {
-        // 이후에는 폴더 경로에서 불러와야함.
-        // Create destination URL
         do {
-            let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(gpx)
-            let dataFromPath: Data = try Data(contentsOf: destinationFileUrl)
-            let data: String = String(data: dataFromPath, encoding: .utf8) ?? ""
-            print(data)
-        } catch let e {
-            print(e.localizedDescription)
+            let decoder = JSONDecoder()
+            decoder.keyDecodingStrategy = .convertFromSnakeCase
+            decoder.dateDecodingStrategy = .secondsSince1970
+
+            let decoded = try decoder.decode(Document.self, from: jsonData)
+            print(decoded)
+            
+        } catch {
+            print(error)
         }
+        // map에 전달.
+        // map 그리기.
+        
+    } catch let e {
+        print(e.localizedDescription)
     }
+    
     
     // parse file
     

@@ -31,6 +31,9 @@ struct DownloadGPXView: View {
     @Environment(\.colorScheme) var colorScheme
     @State private var showingAlert = false
     @State private var showingErrorAlert = false
+    @State private var showingDownloadedAlert = false
+    @State var currentCourseGpx: String = ""
+    @State var currentCourseGpxPath: String = ""
     let isDebug = true
     
     var route: Route
@@ -48,33 +51,39 @@ struct DownloadGPXView: View {
                     // true : open
                     if (IsDownloaded(gpx: course.gpx)) {
                         // open map
+                        print("Downloaded!!!!!!!!")
+                        ParseGPX(gpx: course.gpx)
                     } else {
                         // false : download
                         self.showingAlert = true
+                        self.currentCourseGpx = course.gpx
+                        self.currentCourseGpxPath = course.gpxPath
                     }
                     
                 } label: {
                     Text(course.name)
                 }.foregroundColor(colorScheme == .dark ? Color.white : Color.black)
-                .alert("GPX 파일을 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
+                .alert("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
                     Button("OK", role: .cancel) {
-                        let result = DownloadGpx(gpxPath: course.gpx, gpxFile: course.gpxPath)
-                        if (isDebug) {
-                            ParseGPX(gpx: course.gpx)
-                        } else {
-                            if(!result) {
-                                showingErrorAlert = true
-                            } else {
-                                ParseGPX(gpx: course.gpx)
-                            }
-                        }
+                        let result = DownloadGpx(gpxPath: self.currentCourseGpxPath, gpxFile: self.currentCourseGpx)
                         
+                        if(!result) {
+                            showingErrorAlert = true
+                        } else {
+                            showingDownloadedAlert = true
+                            // ParseGPX(gpx: course.gpx)
+                        }
                     }
                     Button("Cancel", role: .destructive) {
                 
                     }
                 }
                 .alert("에러가 발생하였습니다. 관리자에게 문의바랍니다.", isPresented: $showingErrorAlert) {
+                    Button("OK", role: .cancel) {
+                        
+                    }
+                }
+                .alert("다운로드가 완료되었습니다.", isPresented: $showingDownloadedAlert) {
                     Button("OK", role: .cancel) {
                         
                     }

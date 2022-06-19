@@ -6,6 +6,8 @@
 //
 
 import Foundation
+import UIKit
+import SwiftUI
 
 
 // Backdu.json
@@ -61,6 +63,58 @@ struct Jongju : Identifiable, Codable {
     var routes: [Route]
 }
 
-// gpx file
+// for converted json from gpx file
 
+struct Document: Codable {
+    let gpx: Gpx
 
+    struct Gpx: Codable {
+        let version: String
+        let wptElements: [WptElement]
+        
+        struct WptElement: Codable {
+            let lat: Double
+            let lon: Double
+            let ele: Double
+            let name: String
+            let time: Int
+            let category: String
+            var signpost1: Any
+            var signpost2: Any
+            var signpost3: Any
+            var signpost4: Any
+            let sym: String
+            
+            var date: Date { Date(timeIntervalSince1970: Double(time))}
+            
+            func encode(to encoder: Encoder) throws {
+                <#code#>
+            }
+            
+            init(from decoder: Decoder) throws {
+                <#code#>
+            }
+            
+        }
+        
+        let trk: Trk
+
+        struct Trk: Codable {
+            let name: String
+            let trksegElements: [TrksegElement]
+
+            struct TrksegElement: Codable {
+                let trkptElements: [TrkptElement]
+
+                struct TrkptElement: Codable {
+                    let lat: Double
+                    let lon: Double
+                    let ele: Double
+                    let time: Double
+
+                    var date: Date { Date(timeIntervalSince1970: time) }
+                }
+            }
+        }
+    }
+}
