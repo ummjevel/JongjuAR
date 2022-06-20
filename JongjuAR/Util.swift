@@ -142,7 +142,7 @@ func ParseGPX(gpx: String) {
                 .double("lon"),
                 .double("lat"),
                 .dateStringToUnixSeconds("time"),
-                .int("elevation")
+                .int("elevation"),
                 
             ]
         )

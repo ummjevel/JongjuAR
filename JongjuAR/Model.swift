@@ -73,11 +73,26 @@ struct Document: Codable {
         let wptElements: [WptElement]
         
         struct WptElement: Codable {
+            enum CodingKeys: String, CodingKey {
+                case lat
+                case lon
+                case ele
+                case name
+                case time = "time"
+                case category
+                case signpost1
+                case signpost2
+                case signpost3
+                case signpost4
+                case sym
+                case date
+            }
+            
             let lat: Double
             let lon: Double
             let ele: Double
             let name: String
-            let time: Int
+            let time: Int64
             let category: String
             var signpost1: Any
             var signpost2: Any
@@ -88,11 +103,51 @@ struct Document: Codable {
             var date: Date { Date(timeIntervalSince1970: Double(time))}
             
             func encode(to encoder: Encoder) throws {
-                <#code#>
+                var container = encoder.container(keyedBy: CodingKeys.self)
+                try container.encode(lat, forKey: .lat)
+                try container.encode(lon, forKey: .lon)
+                try container.encode(ele, forKey: .ele)
+                try container.encode(name, forKey: .name)
+                try container.encode(time, forKey: .time)
+                try container.encode(category, forKey: .category)
+                try container.encode(String(describing: signpost1), forKey: .signpost1)
+                try container.encode(String(describing: signpost2), forKey: .signpost2)
+                try container.encode(String(describing: signpost3), forKey: .signpost3)
+                try container.encode(String(describing: signpost4), forKey: .signpost4)
+                try container.encode(sym, forKey: .sym)
+                try container.encode(date, forKey: .date)
             }
             
             init(from decoder: Decoder) throws {
-                <#code#>
+                let values = try decoder.container(keyedBy: CodingKeys.self)
+                lat = try values.decode(Double.self, forKey: .lat)
+                lon = try values.decode(Double.self, forKey: .lon)
+                ele = try values.decode(Double.self, forKey: .ele)
+                name = try values.decode(String.self, forKey: .name)
+                time = try values.decode(Int64.self, forKey: .time)
+                category = try values.decode(String.self, forKey: .category)
+                sym = try values.decode(String.self, forKey: .sym)
+                
+                do {
+                    signpost1 = try values.decode(String.self, forKey: .signpost1)
+                } catch {
+                    signpost1 = try values.decode(Dictionary<String,Data>.self, forKey: .signpost1)
+                }
+                do {
+                    signpost2 = try values.decode(String.self, forKey: .signpost2)
+                } catch {
+                    signpost2 = try values.decode(Dictionary<String,Data>.self, forKey: .signpost2)
+                }
+                do {
+                    signpost3 = try values.decode(String.self, forKey: .signpost3)
+                } catch {
+                    signpost3 = try values.decode(Dictionary<String,Data>.self, forKey: .signpost3)
+                }
+                do {
+                    signpost4 = try values.decode(String.self, forKey: .signpost4)
+                } catch {
+                    signpost4 = try values.decode(Dictionary<String,Data>.self, forKey: .signpost4)
+                }
             }
             
         }
