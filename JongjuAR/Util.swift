@@ -94,10 +94,8 @@ func IsDownloaded(gpx: String) -> Bool {
 }
 
 // Parse GPX file.
-func ParseGPX(gpx: String) {
-    
-    let isDebug = true
-    
+func ParseGPX(gpx: String) -> Document? {
+    var decoded: Document?
     // IsDownloaded
     /*
     let isDownloaded = IsDownloaded(gpx: gpx)
@@ -152,7 +150,7 @@ func ParseGPX(gpx: String) {
         
         guard let jsonData = xmlDict?.data else {
             print("xmlDict?.data 가 없습니다.")
-            return
+            return nil
         }
         
         do {
@@ -160,20 +158,17 @@ func ParseGPX(gpx: String) {
             decoder.keyDecodingStrategy = .convertFromSnakeCase
             decoder.dateDecodingStrategy = .secondsSince1970
 
-            let decoded = try decoder.decode(Document.self, from: jsonData)
+            decoded = try decoder.decode(Document.self, from: jsonData)
             print(decoded)
             
         } catch {
             print(error)
         }
-        // map에 전달.
-        // map 그리기.
         
     } catch let e {
         print(e.localizedDescription)
     }
     
-    
-    // parse file
+    return decoded
     
 }

@@ -24,6 +24,7 @@
 		1E53F8BD284DA723008B77B4 /* JongjuARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8BC284DA723008B77B4 /* JongjuARTests.swift */; };
 		1E53F8C7284DA723008B77B4 /* JongjuARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8C6284DA723008B77B4 /* JongjuARUITests.swift */; };
 		1E53F8C9284DA723008B77B4 /* JongjuARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E53F8C8284DA723008B77B4 /* JongjuARUITestsLaunchTests.swift */; };
+		1ECE7D8F28682D560043B75E /* ARMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ECE7D8E28682D560043B75E /* ARMap.swift */; };
 		64331BC55C1BF09B6A5D7B46 /* Pods_JongjuAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6419434BCE0768B1C58AC3C /* Pods_JongjuAR.framework */; };
 		C5CBFF400E8172D97FF218F2 /* Pods_JongjuAR_JongjuARUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEAA2263EEE16D5ECE863253 /* Pods_JongjuAR_JongjuARUITests.framework */; };
 		D45D0CFEA549788F85D93704 /* Pods_JongjuARTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDB936AF21859DF7D10ED27C /* Pods_JongjuARTests.framework */; };
@@ -59,6 +60,7 @@
 		1E06630828508DC800A8702B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		1E06630A2851C2CF00A8702B /* Util.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Util.swift; sourceTree = "<group>"; };
 		1E06630C285ABFE500A8702B /* 백두대간_지리산권_종주_1코스.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "백두대간_지리산권_종주_1코스.gpx"; sourceTree = "<group>"; };
+		1E0D514C28683FAA000B66B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		1E53F8A8284DA718008B77B4 /* JongjuAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JongjuAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongjuARApp.swift; sourceTree = "<group>"; };
 		1E53F8AD284DA718008B77B4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -69,6 +71,7 @@
 		1E53F8C2284DA723008B77B4 /* JongjuARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JongjuARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E53F8C6284DA723008B77B4 /* JongjuARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongjuARUITests.swift; sourceTree = "<group>"; };
 		1E53F8C8284DA723008B77B4 /* JongjuARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JongjuARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1ECE7D8E28682D560043B75E /* ARMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMap.swift; sourceTree = "<group>"; };
 		5DF6D36A23DE30F404453F15 /* Pods-JongjuAR-JongjuARUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongjuAR-JongjuARUITests.debug.xcconfig"; path = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6820964756A07676A445749B /* Pods-JongjuARTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongjuARTests.release.xcconfig"; path = "Target Support Files/Pods-JongjuARTests/Pods-JongjuARTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8CD1F51FE462A79343C4FDE /* Pods-JongjuAR-JongjuARUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JongjuAR-JongjuARUITests.release.xcconfig"; path = "Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -141,6 +144,7 @@
 		1E53F8AA284DA718008B77B4 /* JongjuAR */ = {
 			isa = PBXGroup;
 			children = (
+				1E0D514C28683FAA000B66B7 /* Info.plist */,
 				1E53F8AB284DA718008B77B4 /* JongjuARApp.swift */,
 				1E53F8AD284DA718008B77B4 /* ContentView.swift */,
 				1E53F8AF284DA722008B77B4 /* Assets.xcassets */,
@@ -155,6 +159,7 @@
 				1E0663062850880200A8702B /* Backdu.json */,
 				1E06630828508DC800A8702B /* Model.swift */,
 				1E06630A2851C2CF00A8702B /* Util.swift */,
+				1ECE7D8E28682D560043B75E /* ARMap.swift */,
 			);
 			path = JongjuAR;
 			sourceTree = "<group>";
@@ -209,6 +214,7 @@
 				1E53F8A5284DA718008B77B4 /* Frameworks */,
 				1E53F8A6284DA718008B77B4 /* Resources */,
 				56516BAE7A742E202CA95F0E /* [CP] Embed Pods Frameworks */,
+				E5F38FC86BBF1F4E645ADAF5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,6 +253,7 @@
 				1E53F8BF284DA723008B77B4 /* Frameworks */,
 				1E53F8C0284DA723008B77B4 /* Resources */,
 				F11F8C64FB7894CB323AA66F /* [CP] Embed Pods Frameworks */,
+				2DC5355E21BFE459DD77384F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -336,6 +343,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2DC5355E21BFE459DD77384F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JongjuAR-JongjuARUITests/Pods-JongjuAR-JongjuARUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		56516BAE7A742E202CA95F0E /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -419,6 +443,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		E5F38FC86BBF1F4E645ADAF5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JongjuAR/Pods-JongjuAR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JongjuAR/Pods-JongjuAR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JongjuAR/Pods-JongjuAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F11F8C64FB7894CB323AA66F /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -447,6 +488,7 @@
 				1E53F8AE284DA718008B77B4 /* ContentView.swift in Sources */,
 				1E53F8AC284DA718008B77B4 /* JongjuARApp.swift in Sources */,
 				1E06630B2851C2CF00A8702B /* Util.swift in Sources */,
+				1ECE7D8F28682D560043B75E /* ARMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,9 +652,12 @@
 				DEVELOPMENT_TEAM = RG3C7D3W2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JongjuAR/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치를 받아오려고 합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치를 받아오려고 합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -643,9 +688,12 @@
 				DEVELOPMENT_TEAM = RG3C7D3W2U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JongjuAR/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "사용자의 위치를 받아오려고 합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "사용자의 위치를 받아오려고 합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = NO;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

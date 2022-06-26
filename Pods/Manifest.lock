@@ -1,16 +1,28 @@
 PODS:
+  - ARCL (1.3.0)
+  - GoogleMaps (6.2.1):
+    - GoogleMaps/Maps (= 6.2.1)
+  - GoogleMaps/Base (6.2.1)
+  - GoogleMaps/Maps (6.2.1):
+    - GoogleMaps/Base
   - XmlJson (1.0.1)
 
 DEPENDENCIES:
+  - ARCL
+  - GoogleMaps
   - XmlJson
 
 SPEC REPOS:
   trunk:
+    - ARCL
+    - GoogleMaps
     - XmlJson
 
 SPEC CHECKSUMS:
+  ARCL: db48b6927d6f3f49f29568295ed91c94ab8d4aab
+  GoogleMaps: 20d7b12be49a14287f797e88e0e31bc4156aaeb4
   XmlJson: 7d82bd5a1fc2a3ba87da49ecff55d285039eabee
 
-PODFILE CHECKSUM: b0886579b57b5f013dd7892ef82b7b41f2ee8816
+PODFILE CHECKSUM: 19353bde52201a6479214ce432ce4087deb55292
 
 COCOAPODS: 1.11.3

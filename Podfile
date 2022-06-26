@@ -7,6 +7,8 @@ target 'JongjuAR' do
 
   # Pods for JongjuAR
   pod 'XmlJson'
+  pod 'GoogleMaps'
+  pod 'ARCL'
 
   target 'JongjuARTests' do
     inherit! :search_paths
