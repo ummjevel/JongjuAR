@@ -23,13 +23,16 @@ struct ContentView: View {
                 }
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 
 struct DownloadGPXView: View {
     
-    let isDebug = true
     @Environment(\.colorScheme) var colorScheme
+    @State private var showingAlert = false
+    @State private var showingErrorAlert = false
+    @State private var showingDownloadedAlert = false
     
     var route: Route
     
@@ -38,42 +41,33 @@ struct DownloadGPXView: View {
     }
     
     var body: some View {
-        
-        // NavigationView {
-            List {
+        List {
+            if #available(iOS 15.0, *) {
                 ForEach(route.courses) { course in
-                    NavigationLink(destination: getDestination(courseGpx: course.gpx, courseGpxPath: course.gpxPath)) {
-                        Text(course.name)
-                    }
-                }
-            }
-        //}
-    }
-    
-    @ViewBuilder
-    func getDestination(courseGpx: String, courseGpxPath: String) -> some View {
-        
-        @State var showingAlert = false
-        @State var showingErrorAlert = false
-        @State var showingDownloadedAlert = false
-        
-        if IsDownloaded(gpx: courseGpx) {
-            ARMap(document: ParseGPX(gpx: courseGpx)!)
-        } else {
-            EmptyView()
-                .alert("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
-                    Button("OK", role: .cancel) {
-                        let result = DownloadGpx(gpxPath: courseGpxPath, gpxFile: courseGpx)
-                        
-                        if(!result) {
-                            showingErrorAlert = true
-                        } else {
-                            showingDownloadedAlert = true
-                            // ParseGPX(gpx: course.gpx)
+                    NavigationLink(destination: {
+                        VStack {
+                            if (IsDownloaded(gpx: course.gpx)) {
+                                
+                                // ARMapView(courseGpx: course.gpx)
+                                // GoogleMap(courseGpx: course.gpx)
+                            } else {
+                                Text("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.")
+                                Button("OK", role: .cancel) {
+                                    //let result =
+                                    DownloadGpx(gpxPath: course.gpxPath, gpxFile: course.gpx)
+                                    
+                                    //if(!result) {
+                                        // showingErrorAlert = true
+                                    //} else {
+                                        showingDownloadedAlert = true
+                                        // ParseGPX(gpx: course.gpx)
+                                    //}
+                                    
+                                }
+                            }
                         }
-                    }
-                    Button("Cancel", role: .destructive) {
-                
+                    }) {
+                        Text(course.name)
                     }
                 }
                 .alert("에러가 발생하였습니다. 관리자에게 문의바랍니다.", isPresented: $showingErrorAlert) {
@@ -84,142 +78,77 @@ struct DownloadGPXView: View {
                 .alert("다운로드가 완료되었습니다.", isPresented: $showingDownloadedAlert) {
                     Button("OK", role: .cancel) {
                         
+                        // ARMapView(courseGpx: course.gpx)
+                        // GoogleMap(courseGpx: course.gpx)
                     }
                 }
-        }
-        
-    }
-}
-
-struct returnAnyView: View {
-    var navigationItem: UINavigationItem
-    
-}
-
-struct DownloadView: View {
-    
-    @State private var showingAlert = false
-    @State private var showingErrorAlert = false
-    @State private var showingDownloadedAlert = false
-    @State var currentCourseGpx: String = ""
-    @State var currentCourseGpxPath: String = ""
-    var courseGpx: String
-    var courseGpxPath: String
-    var isDownloaded: Bool
-    @State var document = ParseGPX(gpx: courseGpx)
-    
-    
-    var body: some View {
-        VStack {
-            Text("")
-            
-            if self.isDownloaded {
-                // open map
-                print("Downloaded!!!!!!!!")
-                
-                ARMapView(document: document)
             } else {
-                // false : download
-                self.showingAlert = true
-                self.currentCourseGpx = courseGpx
-                self.currentCourseGpxPath = courseGpxPath
-                
-                EmptyView()
-            }
-        }
-        .alert("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
-            Button("OK", role: .cancel) {
-                let result = DownloadGpx(gpxPath: self.currentCourseGpxPath, gpxFile: self.currentCourseGpx)
-                
-                if(!result) {
-                    showingErrorAlert = true
-                } else {
-                    showingDownloadedAlert = true
-                    // ParseGPX(gpx: course.gpx)
-                }
-            }
-            Button("Cancel", role: .destructive) {
-        
-            }
-        }
-        .alert("에러가 발생하였습니다. 관리자에게 문의바랍니다.", isPresented: $showingErrorAlert) {
-            Button("OK", role: .cancel) {
-                
-            }
-        }
-        .alert("다운로드가 완료되었습니다.", isPresented: $showingDownloadedAlert) {
-            Button("OK", role: .cancel) {
-                
-            }
-        }
-    }
-}
-                        
-                    /*
-                            // download 여부 확인
-                            // true : open
+                ForEach(route.courses) { course in
+                    NavigationLink(destination: {
+                        VStack {
                             if (IsDownloaded(gpx: course.gpx)) {
-                                // open map
-                                print("Downloaded!!!!!!!!")
-                                // document = ParseGPX(gpx: course.gpx)
                                 
-                                // map에 전달.
-                                // map 그리기.
+                                ARMapView(courseGpx: course.gpx)
+                                // GoogleMap(courseGpx: course.gpx)
                             } else {
-                                // false : download
-                                self.showingAlert = true
-                                self.currentCourseGpx = course.gpx
-                                self.currentCourseGpxPath = course.gpxPath
-                            }
-                        */
-                        /*
-                        Button {
-                            // print(course.gpx)
-                            // download 여부 확인
-                            // true : open
-                            if (IsDownloaded(gpx: course.gpx)) {
-                                // open map
-                                print("Downloaded!!!!!!!!")
-                                let document = ParseGPX(gpx: course.gpx)
-                                
-                                // map에 전달.
-                                // map 그리기.
-                            } else {
-                                // false : download
-                                self.showingAlert = true
-                                self.currentCourseGpx = course.gpx
-                                self.currentCourseGpxPath = course.gpxPath
-                            }
-                            
-                        } label: {
-                            Text(course.name)
-                        }.foregroundColor(colorScheme == .dark ? Color.white : Color.black)
-                        .alert("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.", isPresented: $showingAlert) {
-                            Button("OK", role: .cancel) {
-                                let result = DownloadGpx(gpxPath: self.currentCourseGpxPath, gpxFile: self.currentCourseGpx)
-                                
-                                if(!result) {
-                                    showingErrorAlert = true
-                                } else {
-                                    showingDownloadedAlert = true
-                                    // ParseGPX(gpx: course.gpx)
+                                Text("GPX 파일을 먼저 다운로드 받으시겠습니까? 다운로드 받아야 경로를 확인할 수 있습니다.")
+                                Button {
+                                    //let result =
+                                    DownloadGpx(gpxPath: course.gpxPath, gpxFile: course.gpx)
+                                    
+                                    //if(!result) {
+                                        showingErrorAlert = true
+                                    //} else {
+                                        showingDownloadedAlert = true
+                                        // ParseGPX(gpx: course.gpx)
+                                    //}
+                                } label: {
+                                    Text("OK")
                                 }
                             }
-                            Button("Cancel", role: .destructive) {
-                        
-                            }
                         }
-                        .alert("에러가 발생하였습니다. 관리자에게 문의바랍니다.", isPresented: $showingErrorAlert) {
-                            Button("OK", role: .cancel) {
-                                
-                            }
-                        }
-                        .alert("다운로드가 완료되었습니다.", isPresented: $showingDownloadedAlert) {
-                            Button("OK", role: .cancel) {
-                                
-                            }
-                        } */
-
+                    }) {
+                        Text(course.name)
+                    }
+                }
+                .alert(isPresented: $showingErrorAlert) {
+                    Alert(title: Text("Error"), message: Text("에러가 발생하였습니다. 관리자에게 문의바랍니다."), dismissButton: .default(Text("OK")))
+                }
+                .alert(isPresented: $showingDownloadedAlert) {
+                    Alert(
+                        title: Text("Info"), message: Text("다운로드가 완료되었습니다."), dismissButton: .default(Text("OK"), action: {
+                            
+                            // ARMapView(courseGpx: course.gpx)
+                            // GoogleMap(courseGpx: course.gpx)
+                        })
+                    )
+                }
+            }
+        }
+            
+            
+            /*} else {
+                Button {
+                    let result = DownloadGpx(gpxPath: self.currentCourseGpxPath, gpxFile: self.currentCourseGpx)
+                    
+                    if(!result) {
+                        showingErrorAlert = true
+                    } else {
+                        showingDownloadedAlert = true
+                        // ParseGPX(gpx: course.gpx)
+                    }
+                } label: {
+                    Text("OK").bold()
+                }
+                Button {
+                    
+                } label: {
+                    Text("Cancel").foregroundColor(Color.red)
+                }
+            }*/
+        
+    }
+}
 
 class ReadData: ObservableObject {
     @Published var jongjus = [Jongju]()

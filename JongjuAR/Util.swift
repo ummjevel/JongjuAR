@@ -14,19 +14,21 @@ let fileManger = FileManager.default
 let documentsUrl: URL = fileManger.urls(for: .documentDirectory, in: .userDomainMask).first!
 
 // Gpx File download
-func DownloadGpx(gpxPath: String, gpxFile: String) -> Bool {
+func DownloadGpx(gpxPath: String, gpxFile: String) { //}-> Bool {
     
-    return DownloadFileFromUrl(urlPath: gpxPath, savedName: gpxFile)
+    // return
+    DownloadFileFromUrl(urlPath: gpxPath, savedName: gpxFile)
 }
 
-func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
+func DownloadFileFromUrl(urlPath: String, savedName: String) { //}-> Bool {
     
-    var result = false
+    // var result = false
     // Create destination URL
     let destinationFileUrl = documentsUrl.appendingPathComponent("JongjuAR").appendingPathComponent(savedName)
     
     // Create URL to the source file you want to download
     let fileURL = URL(string: urlPath)
+    print("URLPATH!!!!!! \(fileURL)")
     let sessionConfig = URLSessionConfiguration.default
     let session = URLSession(configuration: sessionConfig)
     let request = URLRequest(url:fileURL!)
@@ -57,14 +59,15 @@ func DownloadFileFromUrl(urlPath: String, savedName: String) -> Bool {
             } catch (let writeError) {
                 print("Error creating a file \(destinationFileUrl) : \(writeError)")
             }
-            result = true
+            //result = true
         } else {
             print("Error took place while downloading a file. Error description: %@", error?.localizedDescription as Any);
+            //result = false
         }
     }
     task.resume()
-    
-    return result
+    // print("RESULT!!!!! \(result)")
+    // return result
 }
 
 // Search Gpx file
